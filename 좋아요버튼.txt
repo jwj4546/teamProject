@@ -1,0 +1,34 @@
+<div class="tBtn tac">
+	    <!-- 좋아요 버튼  class="on"  추가 -->
+	
+		
+		<a href="#n" id="likebtn" class="like-btn on" title="좋아요 선택됨">좋아요 <span id="likecnt">37</span></a>
+			
+</div>
+
+<script>
+var second_chk = "N";
+function likethat(sid){
+    
+	if( second_chk == "N" ){
+
+		$.ajax({
+			    url:'/user/likethat/list.geoje',
+			    type:'post',
+			    data:{
+			    	basicSid: sid
+			    },
+			    success:function(data){
+		
+			    	$('#likebtn').addClass('on');
+			    	$('#likebtn').attr('title','좋아요 선택됨');
+			    	$('#likecnt').html(data);
+			    	second_chk = "Y";
+		
+			    }
+			})
+	
+	}
+	
+}
+</script>
