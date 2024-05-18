@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>pro1</display-name>
+
+
+
+<!--  xml Extensive Markable Language 
+      web.xml 웹환경 설정 파일
+      
+      display-name- 프로젝트 네임
+      welcome-file- 접속 시 메인페이지/ 이거 넣으면 경로 잡혀서 해킹당하기 쉬움
+     
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list> -->
+
+
+  <servlet>
+  	<servlet-name>gangseo</servlet-name>
+  	<servlet-class>org.gangseo.ctrl.Main</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>gangseo</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+  	<servlet-name>default</servlet-name>
+  	<url-pattern>*.js</url-pattern>
+  	<url-pattern>*.css</url-pattern>
+  	<url-pattern>*.jpg</url-pattern>
+  	<url-pattern>*.png</url-pattern>
+  	<url-pattern>*.gif</url-pattern>
+  	<url-pattern>*.webp</url-pattern>
+  	<url-pattern>*.mp4</url-pattern>
+  	<url-pattern>*.ogv</url-pattern>
+  	<url-pattern>*.webm</url-pattern>
+  	<url-pattern>*.mp3</url-pattern>
+  	<url-pattern>*.wav</url-pattern>
+  	<url-pattern>*.ogg</url-pattern>
+  </servlet-mapping>
+  <filter>
+  	<filter-name>SetCharEncoding</filter-name>
+  	<filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+  	<init-param>
+  		<param-name>encoding</param-name>
+  		<param-value>utf-8</param-value>
+  	</init-param>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>SetCharEncoding</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-app>
