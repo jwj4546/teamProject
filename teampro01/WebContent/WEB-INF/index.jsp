@@ -73,6 +73,7 @@ min-width: 300px;
 padding: 80px;
 text-decoration: none;
 display: block;
+font-size: 18px;
 }
 
 /* Show the dropup menu on hover */
@@ -93,7 +94,7 @@ display: block;
 }
 
 
-#page2 { width: 1400px; margin: 0 auto; max-width: 1920px; min-width: 1400px; height: 2000px;}
+#page2 { width: 1400px; margin: 0 auto; max-width: 1920px; min-width: 1400px; height: 1000px;}
 .title4 {text-align: center; margin-top: 100px;}
 
 .circle {text-align: center; margin-top: 100px;}
@@ -126,7 +127,6 @@ display: block;
 .sub_img .balloon { position: absolute; left: 80px;}
 .sub_img .paper { position: absolute; left: 130px;}
 .sub_img .mark { position: absolute; right: 30px;}
-.sub_img .gwangWord {position: absolute; right: 20px; bottom: 20px; width: 200px; height: 50px;}
 </style>
 </head>
 <body>
@@ -216,50 +216,180 @@ display: block;
 				</div>
 				<li class="item1">
 					<input type="radio" class="tab_ra" name="tab1" id="tab_ra1" checked>
-					<label for="tab_ra1" class="tab_btn"><img src="${path0 }/images/나들이.png" alt=""></label>
+					<label for="tab_ra1" class="tab_btn"><img src="${path0 }/images/n1.png" alt="n1"></label>
 					<div class="tab_con">
 						<div class="tab_img">
-							<img src="${path0 }/images/광성보.jpg" alt="탭이미지" >
+							<img src="${path0 }/images/nadeulgil10.jpg" alt="탭이미지" >
 							<div class="sub_img">
-								<img src="${path0 }/images/하트.png" alt="하트" class="heart">
-								<img src="${path0 }/images/말풍선.png" alt="말풍선" class="balloon">
-								<img src="${path0 }/images/종이비행기.png" alt="종이비행기" class="paper">
-								<img src="${path0 }/images/즐겨찾기.png" alt="즐겨찾기" class="mark">
-								<img src="${path0 }/images/광성보글씨.png" alt="광성보글씨" class="gwangWord">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">나들길1</p>
 							</div>
 						</div>
 						<div class="tab_img">
-							<img src="${path0 }/images/짚라인.jpg" alt="탭이미지">
+							<img src="${path0 }/images/nadeulgil11.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">나들길2</p>
 						</div>
-						<div class="tab_img"><img src="${path0 }/images/강화삼랑성.jpg" alt="탭이미지"></div>
 					</div>
+					<div class="tab_img">
+							<img src="${path0 }/images/nadeulgil12.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">나들길3</p>
+						</div>
+					</div>
+				</div>
 				</li>
 				<li class="item2">
 					<input type="radio" class="tab_ra" name="tab1" id="tab_ra2">
-					<label for="tab_ra2" class="tab_btn"><img src="${path0 }/images/고인돌.png" alt=""></label>
+					<label for="tab_ra2" class="tab_btn"><img src="${path0 }/images/dol.png" alt="고인돌"></label>
 					<div class="tab_con">
-						<img src="${path0 }/images/짚라인.jpg" alt="탭이미지">
+						<div class="tab_img">
+							<img src="${path0 }/images/hisexperi01.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">역사문화1</p>
+							</div>
+						</div>
+						<div class="tab_img">
+							<img src="${path0 }/images/hisexperi02.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">역사문화2</p>
+							</div>
+						</div>
+						<div class="tab_img">
+							<img src="${path0 }/images/hisexperi03.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">역사문화3</p>
+							</div>
+						</div>
 					</div>
 				</li>
 				<li class="item3">
 					<input type="radio" class="tab_ra" name="tab1" id="tab_ra3">
-					<label for="tab_ra3" class="tab_btn"><img src="${path0 }/images/체험.png" alt=""></label>
+					<label for="tab_ra3" class="tab_btn"><img src="${path0 }/images/play.png" alt="체험"></label>
 					<div class="tab_con">
-						<img src="${path0 }/images/강화삼랑성.jpg" alt="탭이미지">
+						<div class="tab_img">
+							<img src="${path0 }/images/repoex01.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">체험1</p>
+							</div>
+						</div><div class="tab_img">
+							<img src="${path0 }/images/repoex02.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">체험2</p>
+							</div>
+						</div><div class="tab_img">
+							<img src="${path0 }/images/repoex03.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">체험3</p>
+							</div>
+						</div>
 					</div>
 				</li>
 				<li class="item4">
 					<input type="radio" class="tab_ra" name="tab1" id="tab_ra4">
-					<label for="tab_ra4" class="tab_btn"><img src="${path0 }/images/섬.png" alt=""></label>
+					<label for="tab_ra4" class="tab_btn"><img src="${path0 }/images/island.png" alt="섬"></label>
 					<div class="tab_con">
-						<img src="${path0 }/images/강화삼랑성.jpg" alt="탭이미지">
+						<div class="tab_img">
+							<img src="${path0 }/images/islandexperi01.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">섬1</p>
+							</div>
+						</div>
+						<div class="tab_img">
+							<img src="${path0 }/images/islandexperi02.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">섬2</p>
+							</div>
+						</div>
+						<div class="tab_img">
+							<img src="${path0 }/images/islandexperi03.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">섬3</p>
+							</div>
+						</div>
 					</div>
 				</li>
 				<li class="item5">
 					<input type="radio" class="tab_ra" name="tab1" id="tab_ra5">
-					<label for="tab_ra5" class="tab_btn"><img src="${path0 }/images/산.png" alt=""></label>
+					<label for="tab_ra5" class="tab_btn"><img src="${path0 }/images/mount.png" alt="산"></label>
 					<div class="tab_con">
-						<img src="${path0 }/images/강화삼랑성.jpg" alt="탭이미지">
+						<div class="tab_img">
+							<img src="${path0 }/images/mountexperi01.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">산1</p>
+							</div>
+						</div>
+						<div class="tab_img">
+							<img src="${path0 }/images/mountexperi02.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">산2</p>
+							</div>
+						</div>
+						<div class="tab_img">
+							<img src="${path0 }/images/mountexperi03.jpg" alt="탭이미지" >
+							<div class="sub_img">
+								<img src="${path0 }/images/heart.png" alt="하트" class="heart">
+								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
+								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
+								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
+								<p style="position:absolute; bottom:30px; left:150px;">산3</p>
+							</div>
+						</div>
 					</div>
 				</li>
 			</ul>
