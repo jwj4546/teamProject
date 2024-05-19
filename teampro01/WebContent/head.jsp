@@ -15,7 +15,7 @@
 <link rel="icon" href="${ipath }" />
 <link rel="shortcut icon" href="${ipath }" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="강화 " />
+<meta property="og:title" content="강화" />
 <meta property="og:description" content="" />
 <meta property="og:image" content="${ipath }" />
 <meta property="og:url" content="http://localhost:8091" />

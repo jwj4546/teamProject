@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="normalize2.css">
+
+    <style>
+     /* 사이드 바 */
+    #lnb li .sub2  { height:0; overflow:hidden; transition:0.8s; }
+    #lnb li .sub2 { padding-left:28px; }
+    #lnb .sub2 li a.dp3 { color:#555; font-size:16px; font-weight: 600; }
+    #lnb li:hover .sub2 { height:300px; }
+  
+    
+    /* 컨텐츠 영역*/
+    #contents { height: 1300px; }
+    .wrap .box li { margin-top:30px; margin-left: 70px; float: left; width: 300px; height: 300px; 
+    border: 1px solid #000; position: relative; }
+    .wrap .box li:hover #cover { display: block; cursor: pointer; }
+
+    .box .text { z-index: 10; position: absolute; width: 300px; height: 50px; line-height: 50px; text-align: center; 
+    font-weight: bold; font-size: 17px; background-color: #eccfe9; }
+
+    #img { width: 300px; height: 300px; position: absolute; z-index: 10; }
+    #cover { width: 300px; height: 300px; position: absolute; display: none; z-index: 11; }
+    </style>
+</head>
+<body>
+    <header id="hd" class="clr-fix">
+        <div class="hd_wrap">
+            <div class="wrap clr-fix">
+                <nav id="gnb3">
+                    <ul class="menu">
+                        <li>
+                            <a href="">
+                                <img src="img/logo.png" alt="로고" id="logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="dp1" id="menu1">강화소개</a>
+                            <ul class="sub">
+                                <li><a href="" class="dp2" id="sub">일반현황/행정구역</a></li>
+                                <li><a href="" class="dp2" id="sub">유래와 연혁</a></li>
+                                <li><a href="" class="dp2" id="sub">특산물/특산품</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="dp1" id="menu2">강화문화</a>
+                            <ul class="sub">
+                                <li><a href="" class="dp2" id="sub">영화관</a></li>
+                                <li><a href="" class="dp2" id="sub">박물관/전시관</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="history01.html" class="dp1" id="menu3">강화여행</a>
+                            <ul class="sub">
+                                <li><a href="history01.html" class="dp2" id="sub">명소</a></li>
+                                <li><a href="jindallae05.html" class="dp2" id="sub">축제</a></li>
+                                <li><a href="farmersmarket08.html" class="dp2" id="sub">체험여행</a></li>
+                            </ul>
+
+                        </li>
+                        <li>
+                            <a href="" class="dp1" id="menu4">강화생활</a>
+                            <ul class="sub">
+                                <li><a href="" class="dp2" id="sub">음식점</a></li>
+                                <li><a href="" class="dp2" id="sub">숙박시설</a></li>
+                                <li><a href="" class="dp2" id="sub">쇼핑</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="dp1" id="menu5">강화정보</a>
+                            <ul class="sub">
+                                <li><a href="" class="dp2" id="sub">교통정보</a></li>
+                                <li><a href="" class="dp2" id="sub">공영주차장</a></li>
+                                <li><a href="" class="dp2" id="sub">오시는 길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="dp1" id="menu6">강화소통</a>
+                            <ul class="sub">
+                                <li><a href="" class="dp2" id="sub">공지사항</a></li>
+                                <li><a href="" class="dp2" id="sub">건의사항</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main id="contents" class="clr-fix">
+        <div class="wrap clr-fix">
+            <div class="contents_wrap">
+                <aside id="left1">
+                    <nav id="lnb">
+                        <ul class="menu">
+                            <li>
+                                <a class="dp1">강화여행</a>
+                                <ul class="sub">
+                                    <li><a href="history01.html" class="dp2">명소</a></li>
+                                        <ul class="sub2">
+                                            <li><a href="history01.html" class="dp3">유적지</a> </li>
+                                            <li><a href="temple02.html" class="dp3">사찰</a> </li>
+                                            <li><a href="beach03.html" class="dp3">해변</a> </li>
+                                            <li><a href="island04.html" class="dp3">섬</a> </li>
+                                        </ul>
+                                    <li><a href="jindallae05.html" class="dp2" style="background-color: #f3b8da;">축제</a></li>
+                                        <ul class="sub2">
+                                            <li><a href="jindallae05.html" class="dp3">고려산 진달래 축제</a> </li>
+                                            <li><a href="samrang06.html" class="dp3">삼랑성 역사문화 축제</a> </li>
+                                            <li><a href="saewoo07.html" class="dp3">강화새우젓 축제</a> </li>
+                                        </ul>
+                                    <li><a href="farmersmarket08.html" class="dp2">체험여행</a></li>
+                                    <ul class="sub2">
+                                        <li><a href="farmersmarket08.html" class="dp3">시장여행</a> </li>
+                                        <li><a href="nadeulgil09.html" class="dp3">강화 나들길</a> </li>
+                                        <li><a href="reports09.html" class="dp3">레포츠 여행</a> </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+                <div class="contents">
+                    <div class="breadcrumb">
+                        <p>
+                            <a href="">HOME</a><a href="">강화여행</a><span style="color:deeppink">사찰</span>
+                        </p>
+                    </div>
+                    <h2 class="title">체험관광</h2>
+                    <div class="wrap">
+                        <div class="box">
+                            <li>
+                                <a href="bomunsa0201.html"><img src="./img/look4.png" id="cover"></a>
+                                <img src="./img/bumunsa02.jpg" alt="보문사1" id="img">
+                                <span class="text">보문사</span>
+                            </li>
+                            <li>
+                                <a href="jeondeungsa0202.html"><img src="./img/look4.png" id="cover"></a>
+                                <img src="./img/jeondeungsa03.jpg" alt="전등사1" id="img">
+                                <span class="text">전등사</span>
+                            </li>
+                            <li>
+                                <a href="jeokseoksa0203.html"><img src="./img/look4.png" id="cover"></a>
+                                <img src="./img/jeokseoksa02.jpg" alt="적석사1" id="img">
+                                <span class="text">적석사</span>
+                            </li>
+                        </div>
+                        <div class="box">
+                            <li>
+                                <a href="baekryeonsa0204.html"><img src="./img/look4.png" id="cover"></a>
+                                <img src="./img/baekryunsa01.jpg" alt="백련사1" id="img">
+                                <span class="text">백련사</span>
+                            </li>
+                            <li>
+                                <a href="cheonryeonsa0205.html"><img src="./img/look4.png" id="cover"></a>
+                                <img src="./img/cheongryeonsa04.jpg" alt="청련사1" id="img">
+                                <span class="text">청련사</span>
+                            </li>
+                            <li>
+                                <a href="cheongsuam0206.html"><img src="./img/look4.png" id="cover"></a>
+                                <img src="./img/cheongsuam01.jpg" alt="청수암1" id="img">
+                                <span class="text">청수암</span>
+                            </li>
+                        </div>
+                        <div class="box">
+                            <li>
+                                <a href="jungsusa0207.html"><img src="./img/look4.png" id="cover"></a>
+                                <img src="./img/jeongsusa01.jpg" alt="정수사1" id="img">
+                                <span class="text">정수사</span>
+                            </li>
+
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="ft" class="clr-fix">
+        <div class="ft_wrap">
+            <nav id="fnb">
+                <ul class="fl">
+                    <li><a href="">회원약관</a></li>
+                    <li><a href="">개인정보처리방침</a></li>
+                    <li><a href="">찾아오시는길</a></li>
+                </ul>
+                <ul class="loc">
+                    <select name="sel" id="sel" onchange="locate()">
+                        <option value="">유관기관</option>
+                        <option value="https://www.ganghwa.go.kr/open_content/tour/">강화군 문화관광</option>
+                        <option value="https://hwagaejungwon.ganghwa.go.kr/">화개정원</option>
+                        <option value="https://www.ganghwa.go.kr/open_content/museum/">강화 박물관</option>
+                        <option value="http://www.ganghwapension.kr/">강화 민박</option>
+                        <option value="https://blog.naver.com/ktourtop10">대한민국 테마여행 10선</option>
+                        <option value="https://www.ghss.or.kr/">강화군시설관리공단</option>
+                        <option value="https://korean.visitkorea.or.kr/main/main.do">대한민국구석구석</option>
+                    </select>
+                </ul>
+                <br>
+                <ul class="copy">
+                    <li class="addr">[23037] 인천광역시 강화군 강화읍 강화대로 394</li>
+                    <li class="tel">TEL. 032-930-3114 FAX. 032-930-3660</li>
+                    <br>
+                    <li class="copyright">COPYRIGHT(C) 2015 GANGHWA. ALL RIGHTS RESERVED.</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

@@ -27,7 +27,7 @@ public class Main extends HttpServlet {
 		String realPath = request.getSession().getServletContext().getRealPath("/");
 		
 		application.setAttribute("realPath", realPath);
-		application.setAttribute("title", "test");
+		application.setAttribute("title", "강화군");
 		
 		request.setAttribute("name", name);
 		request.setAttribute("teacher", teacher);
