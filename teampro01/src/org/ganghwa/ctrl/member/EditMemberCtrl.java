@@ -27,18 +27,18 @@ public class EditMemberCtrl extends HttpServlet {
 		
 		String id = request.getParameter("id");
 		MemberDAO dao = new MemberDAO();
-		Member mem = dao.getMember(id);
+		Member member = dao.getMember(id);
 		
 		String key = "%02x";
 		
 		try {
-			mem.setPw(AES256.decryptAES256(mem.getPw(), key));
+			member.setPw(AES256.decryptAES256(member.getPw(), key));
 		} catch (Exception e) {
 			e.printStackTrace();
 		} 
 		
 		
-		request.setAttribute("mem", mem);
+		request.setAttribute("member", member);
 		RequestDispatcher view = request.getRequestDispatcher("/member/memberInfo.jsp");
 		view.forward(request, response);
 	}

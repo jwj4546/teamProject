@@ -58,7 +58,7 @@ position: absolute;
 background-color: #fff;
 bottom: 0px;
 transform: translateY(100%);
-min-width: 160px;
+min-width: 300px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 z-index: 1;
 transition: opacity 1s, transform 1s;
@@ -66,10 +66,10 @@ overflow: hidden;
 }
 
 /* Links inside the dropup */
-.dropup-content a {
+.dropup-content li a {
 color: black;
 text-align: center;
-width: 150px;
+min-width: 300px;
 padding: 80px;
 text-decoration: none;
 display: block;
@@ -121,7 +121,7 @@ display: block;
 .tab_ra { display:none; }
 .tab_ra:checked ~ .tab_con { display:block; }
 
-.sub_img img {width: 30px; height: 30px;}
+.sub_img img {width: 30px; height: 50px;}
 .sub_img .heart { position: absolute; left: 30px;}
 .sub_img .balloon { position: absolute; left: 80px;}
 .sub_img .paper { position: absolute; left: 130px;}
@@ -131,7 +131,7 @@ display: block;
 </head>
 <body>
 <div id="page1">
-			<div style="position:relative;">
+			<div style="position: relative;">
 				<div>
 					<img src="${path0 }/images/ganghwa4.jpg" alt="main photo">
 				</div>
@@ -148,40 +148,47 @@ display: block;
 			</a>
 			<div class="dropup-content">
 				<ul>
-					<li style="border-bottom: 2px solid #000;"><a href="section.jsp">시작의 섬</a></li>
-					<li><a href="section.jsp">일반현황/행정구역</a></li>
-					<li><a href="history.jsp">유래와 연혁</a></li>
-					<li><a href="special.jsp">특산물/특산품</a></li>
+					<li style="border-bottom: 2px solid #000;"><a href="${path0 }/intro/section.jsp">강화소개</a></li>
+					<li><a href="${path0 }/intro/section.jsp">일반현황/행정구역</a></li>
+					<li><a href="${path0 }/intro/history.jsp">유래와 연혁</a></li>
+					<li><a href="${path0 }/intro/special.jsp">특산물/특산품</a></li>
 				</ul>
 				<ul>
-					<li style="border-bottom: 2px solid #000;"><a href="library.jsp" class="dp1">문화의 섬</a></li>
+					<li style="border-bottom: 2px solid #000;"><a href="${path0 }/culture/library.jsp" class="dp1">강화문화</a></li>
 					<li><a href="${path0 }/culture/library.jsp">도서관</a></li>
-					<li><a href="museum.jsp">박물관</a></li>
-					<li><a href="museum.jsp">전시관</a></li>
+					<li><a href="${path0 }/culture/museum.jsp">박물관</a></li>
+					<li><a href="${path0 }/culture/gallery.jsp">전시관</a></li>
 				</ul>
 				<ul>
-					<li style="border-bottom: 2px solid #000;"><a href="place.jsp" class="dp1">관광의 섬</a></li>
-					<li><a href="place.jsp">명소</a></li>
-					<li><a href="festival.jsp">축제</a></li>
-					<li><a href="exp.jsp">체험 여행</a></li>
+					<li style="border-bottom: 2px solid #000;"><a href="${path0 }/travel/history1.jsp" class="dp1">강화여행</a></li>
+					<li><a href="${path0 }/travel/history1.jsp">명소</a></li>
+					<li><a href="${path0 }/travel/jindallae5.jsp">축제</a></li>
+					<li><a href="${path0 }/travel/farmersmarket8.jsp">체험 여행</a></li>
 				</ul>
 				<ul>
-					<li style="border-bottom: 2px solid #000;"><a href="food.jsp" class="dp1">생활의 섬</a></li>
-					<li><a href="food.jsp">음식점</a></li>
-					<li><a href="hotel.jsp">숙박시설</a></li>
-					<li><a href="shop.jsp">쇼핑</a></li>
+					<li style="border-bottom: 2px solid #000;"><a href="${path0 }/facility/food.jsp" class="dp1">강화생활</a></li>
+					<li><a href="${path0 }/facility/food.jsp">음식점</a></li>
+					<li><a href="${path0 }/facility/hotel.jsp">숙박시설</a></li>
+					<li><a href="${path0 }/facility/shop.jsp">쇼핑</a></li>
 				</ul>
 				<ul>
-					<li style="border-bottom: 2px solid #000;"><a href="traffic.jsp" class="dp1">교통의 섬</a></li>
-					<li><a href="traffic.jsp">교통정보</a></li>
-					<li><a href="parking.jsp">공영 주차장</a></li>
-					<li><a href="come.jsp">오시는 길</a></li>
+					<li style="border-bottom: 2px solid #000;"><a href="${path0 }/traffic/traffic.jsp" class="dp1">강화정보</a></li>
+					<li><a href="${path0 }/traffic/traffic.jsp">교통정보</a></li>
+					<li><a href="${path0 }/traffic/parking.jsp">공영 주차장</a></li>
+					<li><a href="${path0 }/traffic/come.jsp">오시는 길</a></li>
 				</ul>
 				<ul>
-					<li style="border-bottom: 2px solid #000;"><a href="login.do" class="dp1">소통의 섬</a></li>
-					<li><a href="login.do">로그인</a></li>
-					<li><a href="notice.do">공지사항</a></li>
-					<li><a href="qna.do">건의사항</a></li>
+					<li style="border-bottom: 2px solid #000;"><a href="login.do" class="dp1">강화소통</a></li>
+					<c:if test="${empty sid }">
+					<li><a href="${path0 }/member/login.jsp">로그인</a></li>
+					<li><a href="${path0 }/member/join1.jsp">회원가입</a></li>
+					</c:if>
+					<c:if test="${!empty sid }">
+					<li><a href="${path0 }/LogOut.do" onclick="log_out()">로그아웃</a></li>
+					<li><a href="${path0 }/EditMember.do?id=${sid }">회원정보</a></li>
+					</c:if>
+					<li><a href="${path0 }/notice/noticeList.jsp">공지사항</a></li>
+					<li><a href="${path0 }/qna/qnaList.jsp">건의사항</a></li>
 				</ul>
 			</div>
 		</div>
@@ -204,7 +211,7 @@ display: block;
 				</div>
 				<li class="item1">
 					<input type="radio" class="tab_ra" name="tab1" id="tab_ra1" checked>
-					<label for="tab_ra1" class="tab_btn"><img src="img/나들이.png" alt=""></label>
+					<label for="tab_ra1" class="tab_btn"><img src="${path0 }/images/나들이.png" alt=""></label>
 					<div class="tab_con">
 						<div class="tab_img">
 							<img src="${path0 }/images/광성보.jpg" alt="탭이미지" >
@@ -217,37 +224,37 @@ display: block;
 							</div>
 						</div>
 						<div class="tab_img">
-							<img src="img/짚라인.jpg" alt="탭이미지">
+							<img src="${path0 }/images/짚라인.jpg" alt="탭이미지">
 						</div>
-						<div class="tab_img"><img src="img/강화삼랑성.jpg" alt="탭이미지"></div>
+						<div class="tab_img"><img src="${path0 }/images/강화삼랑성.jpg" alt="탭이미지"></div>
 					</div>
 				</li>
 				<li class="item2">
 					<input type="radio" class="tab_ra" name="tab1" id="tab_ra2">
-					<label for="tab_ra2" class="tab_btn"><img src="img/고인돌.png" alt=""></label>
+					<label for="tab_ra2" class="tab_btn"><img src="${path0 }/images/고인돌.png" alt=""></label>
 					<div class="tab_con">
-						<img src="img/짚라인.jpg" alt="탭이미지">
+						<img src="${path0 }/images/짚라인.jpg" alt="탭이미지">
 					</div>
 				</li>
 				<li class="item3">
 					<input type="radio" class="tab_ra" name="tab1" id="tab_ra3">
-					<label for="tab_ra3" class="tab_btn"><img src="img/체험.png" alt=""></label>
+					<label for="tab_ra3" class="tab_btn"><img src="${path0 }/images/체험.png" alt=""></label>
 					<div class="tab_con">
-						<img src="img/강화삼랑성.jpg" alt="탭이미지">
+						<img src="${path0 }/images/강화삼랑성.jpg" alt="탭이미지">
 					</div>
 				</li>
 				<li class="item4">
 					<input type="radio" class="tab_ra" name="tab1" id="tab_ra4">
-					<label for="tab_ra4" class="tab_btn"><img src="img/섬.png" alt=""></label>
+					<label for="tab_ra4" class="tab_btn"><img src="${path0 }/images/섬.png" alt=""></label>
 					<div class="tab_con">
-						<img src="img/강화삼랑성.jpg" alt="탭이미지">
+						<img src="${path0 }/images/강화삼랑성.jpg" alt="탭이미지">
 					</div>
 				</li>
 				<li class="item5">
 					<input type="radio" class="tab_ra" name="tab1" id="tab_ra5">
-					<label for="tab_ra5" class="tab_btn"><img src="img/산.png" alt=""></label>
+					<label for="tab_ra5" class="tab_btn"><img src="${path0 }/images/산.png" alt=""></label>
 					<div class="tab_con">
-						<img src="img/강화삼랑성.jpg" alt="탭이미지">
+						<img src="${path0 }/images/강화삼랑성.jpg" alt="탭이미지">
 					</div>
 				</li>
 			</ul>

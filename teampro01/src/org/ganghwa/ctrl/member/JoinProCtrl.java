@@ -45,7 +45,7 @@ public class JoinProCtrl extends HttpServlet {
 			e.printStackTrace();
 		} 
 		
-		Member mem = new Member(request.getParameter("id"), 
+		Member member = new Member(request.getParameter("id"), 
 				enPw, 
 				request.getParameter("name"),
 				request.getParameter("birth"), 
@@ -55,10 +55,10 @@ public class JoinProCtrl extends HttpServlet {
 				request.getParameter("postcode"));
 	
 		MemberDAO dao = new MemberDAO();
-		int cnt = dao.join(mem);
+		int cnt = dao.join(member);
 		
 		if (cnt>0) {
-			response.sendRedirect(request.getContextPath());
+			response.sendRedirect("/teampro01");
 		} else {
 			response.sendRedirect("/Join.do");
 		}
