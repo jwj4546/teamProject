@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인화면</title>
+    <link rel="stylesheet" href="normalize2.css">
+    <style>
+    * { margin: 0; padding: 0; }    
+    body { width: 100%;  overflow-x:hidden; min-width:1200px; }
+    body, html { background-color: #fff; }
+    ul { list-style: none; }
+    a { text-decoration: none; }
+    .wrap { min-height:250px; }
+    .clr-fix { clear:both; }
+    .clr-fix:after { content:""; display:block; width:100%; clear:both;}
+
+
+    #hd { width: 100%; height: 120px; position:relative; }
+    .hd_wrap { clear:both; width:1200px; margin: 0 auto; }
+    .hd_wrap2 { clear:both; width:100%; border-top:1px solid #B08198; border-bottom:1px solid #B08198; 
+    height: 90px; margin: 0; }
+    .logo { display:block; width: 60px; height: auto; float:left; margin-top:5px; 
+    margin-bottom: 10px; }
+
+
+    #tnb2 { float:right; margin-top: 20px;  }
+    #tnb2 p { text-align: right; padding-right: 30px; }
+    #tnb2 p a { padding: 8px 14px; background-color: #ffffff; color:#000000; 
+        font-weight: 600; border-radius:20px; margin:14px; font-size:0.85rem; }
+    #tnb2 p a:hover { background-color:deepskyblue; }
+    #tnb2 p a img {width:30px; height: auto;}
+
+
+
+    #gnb2 { clear:both; width:100%; height:auto; margin: 0 auto;  }
+    #gnb2 > .menu > li {  float:left; width: 16.66%; text-align: center; 
+    position:relative; }   
+    #gnb2 a.dp1 { background-color:#B08198; color:#fff; display:block; 
+        font-size: 20px; font-weight: 800; line-height: 90px; }
+    #gnb2 li:hover a.dp1 { background-color:deepskyblue; }
+    #gnb2 .sub { display:none; position:absolute; left: 0; top: 90px; z-index:100; 
+        width: 100%; height: 250px; }
+    #gnb2:hover .menu .sub { display:block; }
+    #gnb2 .sub li { line-height: 45px; }
+    #gnb2 .sub li a { color:#333; font-weight: 600; }
+    #gnb2 .menu li:hover .sub { background-color:#ccc; }
+    #gnb2 .sub li:hover a { color:deepskyblue; text-decoration: underline; }    
+
+
+
+
+    .blank { width: 100%; clear: both; min-height:150px; }
+    .title { padding-top: 2rem; padding-bottom: 0.5rem; text-align: center; }
+    .lst { list-style:disc; margin-left: 20px; padding-left: 5px; }
+    .lst li { padding-top: 20px; padding-bottom: 20px; }
+    .lst a { color:#333; }
+    .clr-fix { clear:both; }
+    .clr-fix:after { content:""; display:block; width: 100%; clear:both; 
+    padding-bottom: 50px; }
+    </style>
+    <style>
+        /* 2단 메뉴 공통 */    
+        .sub li { line-height: 32px; }
+        .sub li a { color:#333; }
+        .sub li:hover a { text-decoration:underline; color:navy; }
+    </style>
+    <style>
+    /* 사이드 메뉴 */
+    #left1 { float:left; width: 240px; min-height:100vh;
+        box-sizing: border-box; }  
+    #lnb { margin-top: 100px; padding-left: 24px; }      
+    #lnb > .menu > li { line-height: 60px; }
+    #lnb a.dp1 { color:#333; font-size:20px; font-weight:900; }
+    #lnb li .sub { height:0; overflow:hidden; transition:0.8s; }
+    #lnb .sub li { padding-left: 28px; }
+    #lnb .sub li a.dp2 { color:#555; font-size:16px; font-weight: 600; }
+    #lnb li:hover .sub { height:130px; }
+    .contents { float:right; padding: 50px 50px; width:calc(100vw - 270px); 
+    box-sizing: border-box; min-height:100vh;         
+    border-left:1px solid #aaa;  }
+
+    .breadcrumb { clear:both; border-bottom:2px solid #777; 
+    padding-top: 24px; padding-bottom: 24px; text-align: right; 
+    box-sizing:border-box;  padding-right: 40px;   }
+    .breadcrumb p * { padding:0px 7px; color:#333; font-weight:bold; }
+    .breadcrumb p a:after { content:">"; padding-left: 14px; }
+    .contents img { padding: 30px 30px; width:450px; height:300px;
+        padding-top: 50px; padding-bottom: 50px; }
+
+
+
+
+
+    #ft { width: 100%; }   
+    .ft_wrap { clear:both; width: 1200px; margin: 0 auto; } 
+    .ft { clear:both; width: 100%; padding-top:3px; padding-bottom: 20px; 
+    }
+    #fnb { clear:both; width:100%; height:42px; line-height: 42px; 
+    border-bottom:1px solid #ccc; background-color:#333; }
+    #fnb:after { content:""; display:block; width: 100%; clear: both; }
+    #fnb ul li { float:left; padding:0px 10px; }
+    #fnb ul.fl { float:left; }
+    #fnb ul.fr { float:right; }
+    #fnb ul li a { color:#fff; font-size:16px; }
+    #fnb ul.fl li a:after { content:"|"; padding-left: 16px; }
+    #fnb ul.fr li a:before { content:"|"; padding-right: 16px; }
+    #fnb ul.fl li:hover a:after { content:"|"; padding-left: 16px; color:#fff; }
+    #fnb ul.fr li:hover a:before { content:"|"; padding-right: 16px; color:#fff;  }
+    #fnb ul.fl li:last-child a:after { content:""; }
+    #fnb ul.fr li:first-child a:before { content:""; }
+    #fnb ul li:hover a { color:deepskyblue; }
+    #fnb ul.fl li:hover::last-child a:after { content:""; }
+    #fnb ul.fr li:hover::first-child a:before { content:""; } 
+    .copy { padding:24px; line-height: 24px; } 
+
+
+
+    </style>
+
+</head>
+<body>
+    <header id="hd" class="clr-fix">
+        <div class="hd_wrap">
+            <a href="" class="logo"><img src="img/gangwhalogo.png" alt="로고"></a>
+            <nav id="tnb2">
+                <p><a href="login.html">로그인</a><a href="join.html">회원가입</a><a href="map.html">오시는 길</a></p>
+            </nav>
+        </div>
+        <div class="hd_wrap2">
+            <nav id="gnb2">
+                <ul class="menu clr-fix">
+                    <li class="item1">
+                        <a href="" class="dp1">시작의 섬</a>
+                        <ul class="sub">
+                            <li><a href="login.html" class="dp2">일반현황/ 행정구역</a></li>
+                            <li><a href="term.html" class="dp2">유래와 연혁</a></li>
+                            <li><a href="policy.html" class="dp2">특산품/ 특산물</a></li>
+                        </ul>
+                    </li>
+                    <li class="item2">
+                        <a href="" class="dp1">문화의 섬</a>
+                        <ul class="sub">
+                            <li><a href="intro.html?data=local1" class="dp2">영화관</a></li>
+                            <li><a href="intro.html?data=local2" class="dp2">박물관/전시관</a></li>
+                        </ul>
+                    </li>
+                    <li class="item3">
+                        <a href="" class="dp1">관광의 섬</a>
+                        <ul class="sub">
+                            <li><a href="guide2.html" class="dp2">명소</a></li>
+                            <li><a href="guide3.html" class="dp2">축제</a></li>
+                            <li><a href="guide4.html" class="dp2">체험 여행</a></li>
+                        </ul>
+                    </li>
+                    <li class="item4">
+                        <a href="" class="dp1">생활의 섬</a>
+                        <ul class="sub">
+                            <li><a href="notice.html" class="dp2">음식점</a></li>
+                            <li><a href="qna.html" class="dp2">숙박시설</a></li>
+                            <li><a href="databank.html" class="dp2">쇼핑</a></li>
+                        </ul>
+                    </li>
+                    <li class="item4">
+                        <a href="" class="dp1">교통의 섬</a>
+                        <ul class="sub">
+                            <li><a href="notice.html" class="dp2">교통정보</a></li>
+                            <li><a href="qna.html" class="dp2">공영주차장</a></li>
+                            <li><a href="databank.html" class="dp2">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li class="item4">
+                        <a href="" class="dp1">소통의 섬</a>
+                        <ul class="sub">
+                            <li><a href="notice.html" class="dp2">공지사항</a></li>
+                            <li><a href="qna.html" class="dp2">건의사항</a></li>
+                            <li><a href="databank.html" class="dp2">로그인</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="breadcrumb">
+        <p>
+            <a href="">홈</a><a href="">메인메뉴</a><span>현재 페이지</span>
+        </p>
+    </div>
+    <hr>
+    <div class="wrap clr-fix">
+        <!-- aside#left1>nav#lnb>ul>li*3>a.dp1{메뉴$}+(ul.sub>li*4>a.dp2{서브$}) -->
+        <aside id="left1">
+            <nav id="lnb">
+                <ul class="menu">
+                    <li>
+                        <a href="" class="dp1">명소</a>
+                        <ul class="sub">
+                            <li><a href="" class="dp2">유적지</a></li>
+                            <li><a href="" class="dp2">사찰</a></li>
+                            <li><a href="" class="dp2">해변</a></li>
+                            <li><a href="" class="dp2">섬</a></li>
+                        </ul>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="" class="dp1">축제</a>
+                        <ul class="sub">
+                            <li><a href="" class="dp2">고려산 진달래 축제</a></li>
+                            <li><a href="" class="dp2">서브22</a></li>
+                            <li><a href="" class="dp2">서브23</a></li>
+                            <li><a href="" class="dp2">서브24</a></li>
+                        </ul>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="" class="dp1">체험여행</a>
+                        <ul class="sub">
+                            <li><a href="" class="dp2">서브31</a></li>
+                            <li><a href="" class="dp2">서브32</a></li>
+                            <li><a href="" class="dp2">서브33</a></li>
+                            <li><a href="" class="dp2">서브34</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+
+        <div class="contents">
+            <figure id="vs">
+                <img src="img/gapgotdondae01.jpg" alt="비주얼배너">
+                <img src="img/gapgotdondae01.jpg" alt="비주얼배너">
+                <img src="img/gapgotdondae01.jpg" alt="비주얼배너">
+                <img src="img/gapgotdondae01.jpg" alt="비주얼배너">
+            </figure>
+            <hr>
+            <h2 class="title">갑곶돈대</h2>
+            <p>분류 : 문화유산,국방유적 [강화8경] [가볼만한곳]<br><br>
+                문화재 구분 : 국가>사적<br><br>
+                소재지 : (23027) 인천광역시 강화군 강화읍 해안동로1366번길 18 (갑곳리<br><br>
+                돈대는 해안가나 접경 지역에 돌이나 흙으로 쌓은 소규모 관측·방어시설이다. <br>병사들이 돈대 안에서 경계근무를 서며 외적의 척후 활동을 비롯한 각종 수상한 정황을 살피고 대처한다.<br>적이 침략할 때는 돈대 안에 비치된 무기로 방어전을 펼친다. <br>조선시대 강화도 해안에 돌로 쌓은 돈대 53개가 설치됐다.<br> 갑곶돈대는 1679년(숙종 5) 5월에 완성된 48돈대 가운데 하나이다.<br>
+                48돈대는 황해도·강원도·함경도 승군 8,900명과 어영청 소속 어영군 4,262명이 80일 정도 걸려서 쌓았다. <br>돈대 축조를 기획하고 감독한 이는 병조판서 김석주였고 실무 총괄은 강화유수 윤이제였다.<br> 갑곶돈대는 망해돈대·제승돈대·염주돈대와 함께 제물진의 관할 하에 있었다. <br>외부에서 강화로 들어오는 관문과 가까워 중요성이 더욱 강조된 돈대이다. 포좌가 있는 본래의 갑곶돈대는 옛 강화대교 입구의 북쪽 언덕에 있었다.<br> 지금 사적으로 지정된 갑곶돈대는 제물진과 강화 외성의 일부이다.<br>
+                
+                [참고문헌] 육군사관학교, 『강화군 군사유적 지표조사보고서(돈대편)』 육군박물관 유적조사보고 제6집, 1999. 문화재관리국,
+                『강화전사유적보수정화지』, 문화재관리국, 1978. 강화군·육군박물관, 『강화도의 국방유적』, 2000. 배성수,
+                「조선 숙종초 강화도 돈대 축조에 관한 연구」, 인하대학교대학원 석사학위논문, 2002.</p>
+        </div>
+    </div>
+    
+
+
+    <footer id="ft" class="clr-fix">
+        <nav id="fnb">
+            <ul class="fl">
+                <li><a href="term.html">회원약관</a></li>
+                <li><a href="policy.html">개인정보처리방침</a></li>
+                <li><a href="map.html">오시는길</a></li>
+                <li><a href="contact.html">관리자 문의</a></li>
+            </ul>
+            <ul class="fr">
+                <li><a href="intro.html?data=local1">지역소개</a></li>
+                <li><a href="guide1.html">이용안내</a></li>
+                <li><a href="notice.html">커뮤니티</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <div class="copy">
+            <p class="copyright">Copyrigh 2024. Gangwha in Incheon . All Rights Reserved.</p>
+            <p class="addr">[23037] 인천광역시 강화군 강화읍 강화대로 394</p>
+            <p class="tel">TEL. 032-930-3114 FAX. 032-930-3660
+                <a href="https://www.google.com/maps/search/%EA%B0%80%EC%82%B0%EB%8F%99+128-14+%EC%A7%80%EB%8F%84?entry=ttu" target="_blank">오시는 길</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
