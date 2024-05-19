@@ -39,7 +39,7 @@ public class LogInProCtrl extends HttpServlet {
 		String pw = request.getParameter("pw");
 		
 		MemberDAO dao = new MemberDAO();
-		Member mem = dao.getMember(id);
+		Member member = dao.getMember(id);
 		
 		HttpSession session = request.getSession();
 		PrintWriter out = response.getWriter();
@@ -48,15 +48,15 @@ public class LogInProCtrl extends HttpServlet {
 		String key = "%02x";
 		
 		try {
-			mem.setPw(AES256.decryptAES256(mem.getPw(), key));
+			member.setPw(AES256.decryptAES256(member.getPw(), key));
 		} catch (Exception e) {
 			e.printStackTrace();
 		} 
 		
-		if(id.equals(mem.getId()) && pw.equals(mem.getPw())) {
-			session.setAttribute("sid", mem.getId());
+		if(id.equals(member.getId()) && pw.equals(member.getPw())) {
+			session.setAttribute("sid", member.getId());
 			response.sendRedirect("/teampro01");
-		} else if (id.equals(mem.getId())) {
+		} else if (id.equals(member.getId())) {
 			request.setAttribute("msg", "해당 회원의 비밀번호가 일치하지 않습니다");
 			view = request.getRequestDispatcher("/member/login.jsp");
 			view.forward(request, response);

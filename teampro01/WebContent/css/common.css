@@ -10,7 +10,12 @@ li { list-style: none; }
 #hd { width: 100%; text-align: center; }
 .hd_wrap { clear:both; width: 100%; height: 140px; margin: 0 auto; }
 
-body { font-family: 'wandoR'; }
+@font-face {
+    font-family: "WandohopeR";
+    src:local("※"), url("WandohopeR.woff") format('woff');
+}
+
+body { font-family: 'WandohopeR'; }
 
 /* 메인메뉴 */ 
 #gnb3 { clear:both; z-index:100; margin-top: 135px; width: 1400px; min-width: 1400px; margin: 0 auto; position: relative; }

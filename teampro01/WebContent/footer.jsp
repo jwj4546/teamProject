@@ -4,9 +4,9 @@
         <div class="ft_wrap">
             <nav id="fnb">
                 <ul class="fl">
-                    <li><a href="">회원약관</a></li>
-                    <li><a href="">개인정보처리방침</a></li>
-                    <li><a href="">찾아오시는길</a></li>
+                    <li><a href="${path0 }/member/term.jsp">회원약관</a></li>
+                    <li><a href="${path0 }/member/policy.jsp">개인정보처리방침</a></li>
+                    <li><a href="${path0 }/traffic/come.jsp">찾아오시는길</a></li>
                 </ul>
                 <div class="loc">
                     <select name="sel" id="sel" onchange="locate()">

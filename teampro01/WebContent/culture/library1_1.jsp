@@ -41,9 +41,9 @@
                             <li>
                                 <a class="dp1">강화문화</a>
                                 <ul class="sub">
-                                    <li><a href="" class="dp2">도서관</a></li>
-                                    <li><a href="" class="dp2" style="background-color: #f3b8da;">영화관</a></li>
-                                    <li><a href="" class="dp2">전시관</a></li>
+                                    <li><a href="${path0 }/culture/library.jsp" class="dp2" style="background-color: #f3b8da;">도서관</a></li>
+                                    <li><a href="${path0 }/culture/museum.jsp" class="dp2" >박물관</a></li>
+                                    <li><a href="${path0 }/culture/gallery.jsp" class="dp2">전시관</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -52,18 +52,18 @@
                 <div class="contents">
                     <div class="breadcrumb">
                         <p>
-                            <a href="">HOME</a><a href="">강화문화</a><span style="color:deeppink">도서관</span>
+                            <a href="/teampro01">HOME</a><a href="${path0 }/culture/library.jsp">강화문화</a><span style="color:deeppink">도서관</span>
                         </p>
                     </div>
                     <h2 class="title">상세보기</h2>
                     <div class="title2">
-                        <img src="${path0 }/images/title_img.png" id="title_img">
+                        <img src="${path0 }/images/title_img.png" id="title_img" alt="title">
                         <h3 class="sub_title">바람숲그림책도서관</h3>
                     </div>
                     <div class="wrap">
                         <div class="box_img">
-                            <img src="${path0 }/images/library1.jpg" id="intro_img1">
-                            <img src="${path0 }/images/library1_1.jpg" id="intro_img2">
+                            <img src="${path0 }/images/library1.jpg" id="intro_img1" alt="library1">
+                            <img src="${path0 }/images/library1_1.jpg" id="intro_img2" alt="library1">
                         </div>
                         <div class="intro">
                             <p>유형 : 사설도서관</p><br><br>
@@ -75,15 +75,15 @@
                         </div>
                         <div class="btn1">
                             <button onclick="window.location.href='https://www.ganghwa.go.kr/open_content/com/common/map.do?lat=37.6485902&lng=126.5068687&height=800px'">
-                                <img src="${path0 }/images/map.png" id="map_img"> 
+                                <img src="${path0 }/images/map.png" id="map_img" alt="map"> 
                                 <span>지도보기</span>
                             </button>
                             <button>
-                                <img src="${path0 }/images/heart.png" id="btn_img"> 
+                                <img src="${path0 }/images/heart.png" id="btn_img" alt="like"> 
                                 <span>좋아요</span>
                             </button>
-                            <button onclick="window.location.href='form.html'">
-                                <img src="${path0 }/images/list.png" id="btn_img"> 
+                            <button onclick="window.location.href='${path0 }/culture/gallery.jsp'">
+                                <img src="${path0 }/images/list.png" id="btn_img" alt="list"> 
                                 <span>목록으로</span>
                             </button>
                         </div>

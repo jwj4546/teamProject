@@ -35,7 +35,7 @@ public class EditProMemberCtrl extends HttpServlet {
 			e.printStackTrace();
 		} 
 		
-		Member mem = new Member(request.getParameter("id"),
+		Member member = new Member(request.getParameter("id"),
 				enPw, 
 				request.getParameter("name"),
 				request.getParameter("birth"), 
@@ -45,7 +45,7 @@ public class EditProMemberCtrl extends HttpServlet {
 				request.getParameter("postcode"));
 		
 		MemberDAO dao = new MemberDAO();
-		int cnt = dao.editMember(mem);
+		int cnt = dao.editMember(member);
 		
 		if(cnt>0) {
 			response.sendRedirect("/teampro01");
