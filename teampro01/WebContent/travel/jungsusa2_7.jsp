@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -104,9 +104,7 @@
 		                                신라 선덕여왕 8년(639) 회정선사가 창건하여 정수사(精修寺)라 했던것을 조선 세종 5년(1423) 함허대사가 중창하고 정수사(淨水寺)로 고쳤다. 
 		                                특히 건물 후면 공포는 건축당시의 세부 건축 형식을 가장 잘 보여주고 있고, 1957년 보수공사 중에는 숙종 15년(1688) 
 		                                수리 당시 세종 5년 에 중창되었음을 보여주는 상량문이 발견되기도 하였다. 마니산 동쪽에 자리잡은 정수사는 전등사, 
-		                                보문사와 더불어 강화에서 빼놓을 수 없는 사찰중의 하나이다. 이 절은 신라 선덕여왕8년(639)에 회정선사가 마니산의 참성단을 참배한 후 
-		                                이곳 지형을 보고 불자가 가히 삼매 정수할 곳이라하여 사찰을 세우고 정수사(精修寺)라 했는데 그 후 함허대사가 절을 중수한 후 
-		                                법당 서쪽의 맑은 물을 발견하고 정수(淨水)로 바꾸었다. <br>
+		                                보문사와 더불어 강화에서 빼놓을 수 없는 사찰중의 하나이다.<br>
 		
 		                                <br>[참고] 강화군 홈페이지 참조
 	                                <ul>
@@ -117,10 +115,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EA%B0%95%ED%99%94+%EC%A0%95%EC%88%98%EC%82%AC+%EB%B2%95%EB%8B%B9/data=!3m1!4b1!4m6!3m5!1s0x357b87d1b082a511:0x177436bb9d45e11d!8m2!3d37.6077776!4d126.4454049!16s%2Fg%2F12ckhkrlp?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/temple2.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

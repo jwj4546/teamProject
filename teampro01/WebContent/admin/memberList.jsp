@@ -21,7 +21,7 @@
     #img { width: 300px; height: 300px; position: absolute; z-index: 10; }
     #cover { width: 300px; height: 300px; position: absolute; display: none; z-index: 11; }
 </style>
-<title>시스템관리자</title>
+<title>회원관리</title>
 
 <style>
 .contents { height: 1000px; }

@@ -12,11 +12,11 @@ import javax.servlet.http.HttpServletResponse;
 import org.ganghwa.dao.NoticeDAO;
 import org.ganghwa.dto.Notice;
 
-@WebServlet("/NotiIns.do")
-public class NotiInsCtrl extends HttpServlet {
+@WebServlet("/InsNotice.do")
+public class InsNoticeCtrl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    public NotiInsCtrl() {
+    public InsNoticeCtrl() {
         super();
     }
 
@@ -25,16 +25,16 @@ public class NotiInsCtrl extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");
 		
-		Notice noti = new Notice();
+		Notice notice = new Notice();
 		
 		//String title = request.getParameter("title");
 		//String content = request.getParameter("content");
 		
-		noti.setTitle(request.getParameter("title"));
-		noti.setContent(request.getParameter("content"));
+		notice.setTitle(request.getParameter("title"));
+		notice.setContent(request.getParameter("content"));
 		
 		NoticeDAO dao = new NoticeDAO();
-		int cnt = dao.insNotice(noti);
+		int cnt = dao.insNotice(notice);
 		
 		if(cnt>0) {
 			System.out.println("공지사항 추가에 성공하셨습니다~!");
@@ -51,9 +51,9 @@ public class NotiInsCtrl extends HttpServlet {
 		ServletContext application = request.getServletContext();
 		String home = application.getContextPath();
 		if(cnt>0) {
-			response.sendRedirect(home+"/NotiList.do");
+			response.sendRedirect(home+"/NoticeList.do");
 		} else {
-			response.sendRedirect(home+"/notice/noti_ins.jsp");
+			response.sendRedirect(home+"/notice/notice_ins.jsp");
 		}
 	}
 

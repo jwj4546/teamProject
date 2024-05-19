@@ -23,18 +23,18 @@ public class EditProNoticeCtrl extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");
 		
-		Notice noti = new Notice();
-		noti.setNo(Integer.parseInt(request.getParameter("no")));
-		noti.setTitle(request.getParameter("title"));
-		noti.setContent(request.getParameter("content"));
+		Notice notice = new Notice();
+		notice.setNo(Integer.parseInt(request.getParameter("no")));
+		notice.setTitle(request.getParameter("title"));
+		notice.setContent(request.getParameter("content"));
 		
 		NoticeDAO dao = new NoticeDAO();
-		int cnt = dao.editNotice(noti);
+		int cnt = dao.editNotice(notice);
 		
 		if(cnt>0) {
-			response.sendRedirect("/teampro01/NotiList.do");
+			response.sendRedirect("/teampro01/NoticeList.do");
 		} else {
-			response.sendRedirect("/teampro01/EditNotice.do?no="+noti.getNo());
+			response.sendRedirect("/teampro01/EditNotice.do?no="+notice.getNo());
 		}
 	}
 

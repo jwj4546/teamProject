@@ -1,18 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -109,21 +94,14 @@
 		                            <img src="${path0 }/images/logo.png" id="title_img">
 		                            <h3 class="sub_title">《개최 안내》</h3>
 		                            <p><br><br>
-		                                【개최일시】<br>
-		                                
-		                                2024. 4. 6.(토) ~ 4. 14.(일) <9일간><br>
-		                                교통혼잡이 예상되는 주요지점은 교통이 통제될 수 있사오니 양해바라며 (임시)주차장을 이용하여 주시기 바랍니다.<br><br>
-		                                【개최장소】<br>
-		                                
-		                                인천 강화군 내가면 고천리 산 145-5 고인돌 공원 및 고려산<br><br>
-		                                【문의전화】<br>
-		                                
-		                                032 - 937 - 9340 ( 운영시간 09:00 ~ 18:00)(점심시간제외)<br><br>
+		                                【개최일시】 2024. 4. 6.(토) ~ 4. 14.(일) <9일간><br>
+		                              
+		                                【개최장소】 인천 강화군 내가면 고천리 산 145-5 고인돌 공원 및 고려산<br><br>
+		                                【문의전화】032 - 937 - 9340 ( 운영시간 09:00 ~ 18:00)(점심시간제외)<br><br>
 		                                【기타사항】<br>
 		                                
-		                                강화군 농·특산품 판매부스 운영(공연 및 체험부스 미운영)
-		                                행사기간 중에는 사고 위험 방지를 위하여 차량이 통제되오니 임시주차장에 주차 후 이동하여 주시기 바랍니다.
-		                                고인돌공원 임시주차장에서 고려산 정상(진달래군락지)까지 1시간 20분정도 소요(등산화 착용 권장) </p><br><br>
+		                                강화군 농·특산품 판매부스 운영(공연 및 체험부스 미운영<br>
+		                                고인돌공원 임시주차장에서 고려산 정상(진달래군락지)까지 1시간 20분정도 소요(등산화 착용 권장) </p><br>
 		                                
 		                                자세한 사항은 관련 페이지 참조 부탁드립니다<br><br>
 	                                <ul>
@@ -136,10 +114,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EA%B3%A0%EB%A0%A4%EC%82%B0/data=!4m6!3m5!1s0x357c7a786fa66c31:0x401597ccad1a78eb!8m2!3d37.7445867!4d126.4372675!16s%2Fm%2F04n5q2h?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/history1.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

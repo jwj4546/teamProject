@@ -33,7 +33,7 @@
 border:2px solid #000; }
 
 .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 200px; }
-.btn1 { width: 900px; margin: 0 auto; }
+.btn1 { width: 900px; margin: 0 auto; text-align:center;}
 .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
 border: 2px dotted #FF9898; }
 .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
@@ -41,7 +41,7 @@ border: 2px dotted #FF9898; }
 .btn1 #btn_img { width: 30px; height: 30px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
 .btn1 span { width: 20px; height: 20px; vertical-align: middle; font-weight: bold; font-size: 20px; }
 
-.box_img2 { display: flex; }
+.box_img2 { display: flex; margin-top: 50px;}
 #intro_img { display: flex; width: 300px; height: 200px; margin-left: 70px; border:2px solid #000; }
 </style>
 </head>
@@ -49,10 +49,10 @@ border: 2px dotted #FF9898; }
 <div id="header">
 	<%@ include file="/header.jsp" %>
 </div>
-	<main id="contents" class="clr-fix">
+	<main id="contents" class="clr-fix" style="height:1400px;">
         <div class="wrap clr-fix">
             <div class="contents_wrap">
-                <aside id="left1">
+                <aside id="left1" style="height:1400px;">
                     <nav id="lnb">
                         <ul class="menu">
                             <li>
@@ -66,7 +66,7 @@ border: 2px dotted #FF9898; }
                         </ul>
                     </nav>
                 </aside>
-                <div class="contents">
+                <div class="contents" style="height:1400px;">
                     <div class="breadcrumb">
                         <p>
                             <a href="/teampro01">HOME</a><a href="${path0 }/intro/section.jsp">강화소개</a><span style="color:deeppink">특산물/특산품</span>

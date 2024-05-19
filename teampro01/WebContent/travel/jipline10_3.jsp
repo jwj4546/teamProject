@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -93,15 +93,13 @@
 		                        <div class="intro">
 		                            <img src="${path0 }/images/logo.png" id="title_img">
 		                            <h3 class="sub_title">《관광포인트》</h3>
-		                            <p><br>
-		                                일상에 지친 여러분의 스트레스를 완전히 날려버릴 유일한 해답! 강화도의 하늘을 가르며 아름다운 자연과 짜릿한 스릴을 동시에 선사합니다.<br>
+		                            <p><br><br>
 		                                강화도의 동서남북이 훤히 내려다보이는 강화도의 중앙부에 위치한 혈구산에 위치한 강화레포츠파크는 총길이 1km 5개코스의 집라인과<br>
-		                                18개의 어드벤쳐코스, 클라이밍 시설등 다이나믹하고 스릴넘치는 레포츠시설을 자연휴양림안에서 즐기실 수 있는 종합레져 테마파크입니다.<br><br>
+		              18개의 어드벤쳐코스, 클라이밍 시설등 다이나믹하고 스릴넘치는 레포츠시설을 자연휴양림안에서 즐기실 수 있는 종합레져 테마파크입니다.<br><br>
 		
 		                                【위치】 : 인천광역시 강화군 불은면 중앙로546-34<br>
 		                                【주요시설】 : 짚라인, 어드벤쳐, 클라이밍, 휴양림, 카페 등<br>
 		                                【이용시간】 : 09:30 ~ 18:30(평일 17:30)<br>
-		                                【이용요금】 : 해당 시설 홈페이지 확인<br>
 		                                【문의전화】 :  032-937-7481<br>
 		
 		                                <br> [참고] 강화 레포츠 파크 <br><br>
@@ -113,10 +111,6 @@
                             <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EA%B0%95%ED%99%94%EB%A0%88%ED%8F%AC%EC%B8%A0%ED%8C%8C%ED%81%AC%2F%ED%9C%B4%EC%96%91%EB%A6%BC/data=!4m15!1m8!3m7!1s0x357c7a1ebdbe52a7:0x80d3bb3e1e81d8c!2z7J247LKc6rSR7Jet7IucIOqwle2ZlOq1sCDrtojsnYDrqbQg7KSR7JWZ66GcIDU0Ng!3b1!8m2!3d37.7129184!4d126.4535869!16s%2Fg%2F11tg2ddt02!3m5!1s0x357c7b3b533ba8c7:0x20f64fa971571e7f!8m2!3d37.7155053!4d126.4534552!16s%2Fg%2F11h77qkq_n?hl=ko&entry=ttu'">
                                 <img src="${path0 }/images/map.png" id="map_img"> 
                                 <span>지도보기</span>
-                            </button>
-                            <button>
-                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-                                <span>좋아요</span>
                             </button>
                             <button onclick="window.location.href='${path0}/travel/reports10.jsp'">
                                 <img src="${path0 }/images/list.png" id="btn_img"> 

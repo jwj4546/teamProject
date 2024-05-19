@@ -54,10 +54,10 @@ th, td { border: 2px solid #000; padding: 8px; text-align: center; }
 <div id="header">
 	<%@ include file="/header.jsp" %>
 </div>
-	<main id="contents" class="clr-fix">
+	<main id="contents" class="clr-fix" style="height: 1400px;">
         <div class="wrap clr-fix">
             <div class="contents_wrap">
-                <aside id="left1">
+                <aside id="left1" style="height: 1400px;">
                     <nav id="lnb">
                         <ul class="menu">
                             <li>
@@ -71,7 +71,7 @@ th, td { border: 2px solid #000; padding: 8px; text-align: center; }
                         </ul>
                     </nav>
                 </aside>
-                <div class="contents">
+                <div class="contents" style="height: 1400px;">
                     <div class="breadcrumb">
                         <p>
                             <a href="/teampro01">HOME</a><a href="${path0 }/intro/section.jsp">강화소개</a><span style="color:deeppink">유래와 연혁</span>

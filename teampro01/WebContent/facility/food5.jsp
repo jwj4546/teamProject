@@ -19,7 +19,7 @@
 #intro_img2 { display: flex; width: 500px; height: 400px; margin-left: 60px; margin-right: 70px; margin-top: 40px; 
 border:2px solid #000; }
 .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 400px; }
-.btn1 { width: 900px; margin: 0 auto; }
+.btn1 { width: 900px; margin: 0 auto; text-align: center;}
 .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
 border: 2px dotted #FF9898; }
 .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
@@ -78,23 +78,6 @@ border: 2px dotted #FF9898; }
                                 <br><br>
                                 <strong>[ 식당규모 및 주차정보 ]</strong> 20대
                                 <br><br>
-                                <strong>[ 소개글 ]</strong><br>
-                                &nbsp;외포리 꽃게탕 집을 방문해주셔서 감사 드립니다.
-                                강화군 내가면 외포리는, 꽃게와 밴댕이, 새우젖이 유명하며, 
-                                석모도로 가는 배를 타는 곳으로 잘 알려진 강화군 내가면 외포리 선착장이 위치하고 있습니다.
-                                저희 외포리 꽃게탕 집은, 예전부터 조상이 지켜내려오신 집터에 자리잡고 있으며, 
-                                새벽마다 신선한 꽃게와 해물을 준비하여, 맛의 비결이 조리된, 꽃게탕과 찜, 해물찜, 밴댕이회, 게장백반등을 차려놓고 있습니다.
-                                <br>&nbsp;서울과 인천에서 불과 65km 정도 떨어진 거리에 위치하고 있으며, 약 1시간 정도만에 아름다운 외포리의 바다포구 
-                                모습과, 보문사로 가는 나룻배를 승용차와 함께 승선하여, 하늘을 나는 갈매기떼의 모습을 보면서 바다를 건널 수 있습
-                                니다. 외포리 선착장 인근에는, 서해의 아름다운 바다와 섬, 젖갈시장, 고기잡이배 등이 그림 같이 펼쳐저 있어 주말
-                                이면 항상 많은 관광객이 붐비는 곳입니다.
-                                <br>&nbsp;외포리 꽃게탕집에서는 싱싱하고 물이 좋은 꽃게, 밴댕이, 활어를 재료로 최고의 맛을 보여드려, 
-                                한번 들리셨던 분들은 다시 또 들러주시고, 다른 분들에게도 추천해 주시고 계십니다. 식당뒤의 야산에서는, 
-                                어린이들이 밤나무, 도토리나무등을 돌아보며, 자연체험학습의 경험도 할 수 있습니다.
-                                앞으로도 계속, 단골손님들의 성원과 격려에 힘입어, 더욱 손님 취향에 맞는 최고의 맛을 끊임없이 다듬어나갈 예정
-                                이며, 특색있고 맛있는 음식을 손님들에게 대접 하도록 항상 최선을 다 하겠습니다.
-                                <br>&nbsp;그 동안 멀리에서 오셔서 저희 외포리 꽃게탕집을 찾아주셨고, 귀중한 조언을 아낌없이 해주신 여러 단골손님들에게
-                                깊이 감사 드립니다.
                             </p>
                         </div>
                        <div class="btn1">

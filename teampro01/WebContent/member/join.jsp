@@ -75,6 +75,7 @@ td { font-weight: bold; }
 </div>
 	<main id="contents" class="clr-fix">
         <div class="wrap clr-fix">
+        	<div class="contents_wrap">
             <aside id="left1">
                     <nav id="lnb">
                         <ul class="menu">
@@ -155,6 +156,7 @@ td { font-weight: bold; }
                                 </tr>
                             </table>
                         </form>
+                       </div>
                         <script>
 			function joinCheck(f) {
 				if(f.pw.value!=f.pw2.value) {

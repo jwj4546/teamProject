@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -96,8 +96,6 @@
 		                            <p><br>                               
 		                                【위치】 : 인천광역시 강화군 강화읍 중앙로 17-9<br>
 		                                【규모】 : 지하1층, 지상2층 (연면적 8,842,28㎡)<br>
-		                                【1층】 : 풍물장, 회센터 (122개 점포)<br>
-		                                【2층】 : 풍물장, 식당 (49개 점포)<br>
 		                                【주차장】 : 423대 주차가능<br>
 		                                【운영시간】 : 08:00 ~ 21:00<br>
 		                                【휴무일】 : 매월 첫째주, 셋째주 월요일 휴무(단, 장날 또는 공휴일인 경우 익일 휴무)<br>
@@ -113,10 +111,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EA%B0%95%ED%99%94%ED%92%8D%EB%AC%BC%EC%8B%9C%EC%9E%A5/data=!4m15!1m8!3m7!1s0x357c7b1023667779:0xf70e3cd4efb97f2f!2z7J247LKc6rSR7Jet7IucIOqwle2ZlOq1sCDqsJXtmZTsnY0g7KSR7JWZ66GcIDE3LTk!3b1!8m2!3d37.7420767!4d126.4919091!16s%2Fg%2F11bzbwkm19!3m5!1s0x357c7b1020295de1:0x9c007ff2c6d4d39!8m2!3d37.7414806!4d126.4927278!16s%2Fg%2F1vf998qv?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/farmersmarket8.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

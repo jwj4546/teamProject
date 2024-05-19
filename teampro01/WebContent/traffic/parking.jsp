@@ -10,7 +10,7 @@
 <meta charset="UTF-8">
 <%@ include file="/head.jsp" %>
 <style>
-    #contents { height: 1300px; }
+    #contents { height: 2500px;}
     .wrap .box li { margin-top:30px; margin-left: 70px; float: left; width: 302px; height: 302px; 
     border: 1px solid #000; position: relative; }
     .wrap .box li:hover #cover { display: block; cursor: pointer; }
@@ -37,8 +37,8 @@
     .btn1 #btn_img { width: 30px; height: 30px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
     .btn1 span { width: 20px; height: 20px; vertical-align: middle; font-weight: bold; font-size: 20px; }
 
-    #left1 { float:left; width: 200px; min-height:100vh; height: 1800px; border-left:2px solid #000; box-sizing: border-box; }     
-    .contents { float:right; width: 1204px; box-sizing: border-box; min-height:100vh; height: 1800px; 
+    #left1 { float:left; width: 200px; min-height:100vh; height: 2500px; border-left:2px solid #000; box-sizing: border-box; }     
+    .contents { float:right; width: 1204px; box-sizing: border-box; height: 2500px; 
     border-left:2px solid #000; border-right: 2px solid #000; }  
     /* 부모 요소를 가운데 정렬 */
     #detail_con {
@@ -82,24 +82,24 @@
 </head>
 <body>
 	<%@ include file="/header.jsp" %>
-	<main id="contents" class="clr-fix" style="height: 1800px;">
+	<main id="contents" class="clr-fix">
         <div class="wrap clr-fix">
             <div class="contents_wrap">
-                <aside id="left1">
+                <aside id="left1" style="height: 2500px;">
                     <nav id="lnb">
                         <ul class="menu">
                             <li>
                                 <a class="dp1">강화정보</a>
                                 <ul class="sub">
-                                    <li><a href="" class="dp2">교통정보</a></li>
-                                    <li><a href="" class="dp2" style="background-color: #f3b8da;">공영주차장</a></li>
-                                    <li><a href="" class="dp2">오시는 길</a></li>
+                                    <li><a href="${path0 }/traffic/traffic.jsp" class="dp2">교통정보</a></li>
+                                    <li><a href="${path0 }/traffic/parking.jsp" class="dp2" style="background-color: #f3b8da;">공영주차장</a></li>
+                                    <li><a href="${path0 }/traffic/come.jsp" class="dp2">오시는 길</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </nav>
                 </aside>
-                <div class="contents">
+                <div class="contents" style="height: 2500px;">
                     <div class="breadcrumb">
                         <p>
                             <a href="teampro01">HOME</a><a href="${path0 }/traffic/traffic.jsp">강화정보</a><span style="color:deeppink">공영주차장</span>

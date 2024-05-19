@@ -71,9 +71,9 @@
                         </p>
                     </div>
                     <h2 class="title">우리나라에서 본 강화</h2>
-                    <img src="${path0 }/images/place.gif" alt="place" style="margin-left: 150px;"><br><br>
+                    <img src="${path0 }/images/place.gif" alt="place" style="margin-left: 200px;"><br><br>
                 	<h2 class="title">오시는 길</h2>
-                	<img src="${path0 }/images/location.gif" alt="location" style="margin-left: 150px;">
+                	<img src="${path0 }/images/location.gif" alt="location" style="margin-left: 200px;">
                 </div>
             </div>
         </div>

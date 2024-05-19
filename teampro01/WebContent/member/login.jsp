@@ -105,6 +105,7 @@ font-weight: bold; font-size: 17px; background-color: #eccfe9; }
 </div>
 	<main id="contents" class="clr-fix">
         <div class="wrap clr-fix">
+        	<div class="contents_wrap">
             <aside id="left1">
                     <nav id="lnb">
                         <ul class="menu">

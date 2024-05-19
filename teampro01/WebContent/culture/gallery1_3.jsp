@@ -19,7 +19,7 @@
     #intro_img2 { display: flex; width: 500px; height: auto; margin-left: 60px; margin-right: 70px; margin-top: 40px; 
     border:2px solid #000; }
     .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 400px; }
-    .btn1 { width: 900px; margin: 0 auto; }
+    .btn1 { width: 900px; margin: 0 auto; text-align:center;}
     .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
@@ -73,10 +73,6 @@
                             <button onclick="window.location.href='https://www.ganghwa.go.kr/open_content/com/common/map.do?lat=37.7175416&lng=126.3859560&height=600px'">
                                 <img src="${path0 }/images/map.png" id="map_img" alt="map"> 
                                 <span>지도보기</span>
-                            </button>
-                            <button>
-                                <img src="${path0 }/images/heart.png" id="btn_img" alt="like"> 
-                                <span>좋아요</span>
                             </button>
                             <button onclick="window.location.href='${path0 }/culture/gallery.jsp'">
                                 <img src="${path0 }/images/list.png" id="btn_img" alt="list"> 

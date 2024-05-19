@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -94,14 +94,9 @@
 		                            <img src="${path0 }/images/logo.png" id="title_img">
 		                            <h3 class="sub_title">《관광포인트》</h3>
 		                            <p><br>
-		                                모노레일을 타고 약20분정도 편하게 올라가 상부 승·하차장에 내리면 화개정원과 한강하구와 서해바다의 
-		                                아름다운 풍경, 북녘 땅에 흐르는 예성강을 따라 펼쳐진 연백평야를 관람할 수 있다.<br><br>
 		\
 		                                【위치】 : 인천광역시 강화군 교동면 교동동로471번길 6-60<br>
-		                                【주요시설】 : 모노레일, 베이커리 카페, 이탈리안 레스토랑, 루프탑 전망대<br>
-		                                【이용시간】 : 09:30 ~ 18:30(평일 17:30)<br>
 		                                【이용요금】 : 대인 12,000원 / 소인·장애인 10,000원<br>
-		                                【문의전화】 : 032-933-3300 ※기상상황에 따라 이용시간이 변경될 수 있음에 유선 확인<br><br>
 		
 		                                <br>[참고] 화개정원 홈페이지<br>
 	                                <ul>
@@ -112,10 +107,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EA%B0%95%ED%99%94%EA%B5%B0+%EA%B5%90%EB%8F%99%EB%A9%B4+%EA%B5%90%EB%8F%99%EB%8F%99%EB%A1%9C471%EB%B2%88%EA%B8%B8+6-60/data=!4m7!3m6!1s0x357c736c30dd7793:0x2b9d5a945d81dfbe!4b1!8m2!3d37.781526!4d126.2923671!16s%2Fg%2F11jz7wdxtg?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/reports10.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

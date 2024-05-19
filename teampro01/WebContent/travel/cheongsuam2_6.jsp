@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -100,9 +100,7 @@
 		                                1936년 임봉법스님이 창건 1966년 제2대 주지인 정덕용스님이 도량확장 및 개축의 원력을 세웠으며, 
 		                                1974년 극락전 및 미륵전,칠성각,요사채등을 복원 개축하였다. 1972년에는 대웅전이 중수되었으며, 1976년에는 대웅전·미륵전·칠성각·요사 등의 건물이 
 		                                중건되었다. 또 최근 1994년에는 해운스님이 요사를 고쳐짓는 불사를 했다. 이 절은 경내의 숲이 울창하고 조망이 좋아서 휴식처로도 이름이 높다. 
-		                                또 절 뒤편에 있는 언덕에는 철종이 임금이 되기 전 이곳 강화에서 살면서 애용하던 약수터가 있다고 한다. 남산 북록에 자리하고 있어서 
-		                                흔히 ‘남산절’로 많이 불리고 있다. 대웅전과 금륜전·미륵전 등의 건물과 그 안에 아미타불상 및 관음보살, 지장보살, 
-		                                아미타후불탱화·독성탱화·신중탱화·현왕탱화·감로탱화 등의 문화재가 있다. 그러나 절의 창건 역사와 마찬가지로 전부 근래에 조성된 작품이다. 
+		                             대웅전과 금륜전·미륵전 등의 건물과 그 안에 아미타불상 및 관음보살, 지장보살, 아미타후불탱화·독성탱화·신중탱화·현왕탱화·감로탱화 등의 문화재가 있다.  
 		                                강화읍 남산북쪽에 위치하고 있어, 일명 속칭 「남산절」 이라고도 한다.<br>
 		
 		                                <br>[참고] 강화군 홈페이지 참조
@@ -114,10 +112,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%B2%AD%EC%88%98%EC%95%94/data=!3m1!4b1!4m6!3m5!1s0x357c7afe83ab2ec3:0xb6b83961d4ec098b!8m2!3d37.7426432!4d126.4765137!16s%2Fg%2F1thy_lsp?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/temple2.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

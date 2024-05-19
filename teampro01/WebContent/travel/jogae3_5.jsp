@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -99,10 +99,7 @@
 		                                【야영가능】 :길 이 : 약 1.5km / 야영가능 : 약 50여개(텐트)<br>
 		                                【주요시설】 : 공중화장실, 샤워장<br>
 		                                【소재지】 :  (23010) 인천 강화군 서도면 볼음도리<br><br>
-		
-		                                조개골 해수욕장은 길이 1.5km, 폭 70m로 주변에 해송이 잘 조성되어 있고 모래사장이 잘 발달되어 
-		                                많은 관광객들이 찾는 휴양지다. 서해안의 해수욕장이지만 물이 깨끗하고 수심이 완만하여 도시를 떠나 파도소리,
-		                                갈매기 소리를 즐기기에 알맞다. 다만, 간조 시에는 해수욕을 즐기기 어렵지만 갯벌에 나가 조개를 잡는 재미도 있다.<br><br>
+
 		
 		                                <br>[참고] 강화군 홈페이지 참조
 	                                <ul>
@@ -113,10 +110,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%A1%B0%EA%B0%9C%EA%B3%A8+%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5(Jogaegol+Beach)/data=!3m1!4b1!4m6!3m5!1s0x357bf508d3f7f879:0xa9f345504e7eea8!8m2!3d37.6573337!4d126.2018909!16s%2Fg%2F11qpy2tccq?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/beach3.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

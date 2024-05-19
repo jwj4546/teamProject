@@ -1,4 +1,4 @@
-package teampro01;
+package org.ganghwa.ctrl;
 
 import java.io.IOException;
 
