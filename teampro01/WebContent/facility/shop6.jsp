@@ -21,7 +21,7 @@
 border:2px solid #000; }
 .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 210px; }
 
-.btn1 { width: 900px; margin: 0 auto; }
+.btn1 { width: 900px; margin: 0 auto; text-align: center;}
 .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
 border: 2px dotted #FF9898; }
 .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
@@ -37,10 +37,10 @@ border: 2px dotted #FF9898; }
 <div id="header">
 	<%@ include file="/header.jsp" %>
 </div>
-<main id="contents" class="clr-fix">
+<main id="contents" class="clr-fix" style="height:1500px;">
        <div class="wrap clr-fix">
            <div class="contents_wrap">
-               <aside id="left1">
+               <aside id="left1" style="height:1500px;">
                    <nav id="lnb">
                        <ul class="menu">
                            <li>
@@ -54,7 +54,7 @@ border: 2px dotted #FF9898; }
                        </ul>
                    </nav>
                </aside>
-               <div class="contents">
+               <div class="contents" style="height:1500px;">
                    <div class="breadcrumb">
                        <p>
                            <a href="/teampro01">HOME</a><a href="${path0 }/facility/food.jsp">강화생활</a><span style="color:deeppink">쇼핑</span>
@@ -87,7 +87,7 @@ border: 2px dotted #FF9898; }
                                 어르신들에게는 추억을 어린이들에게는 새로운 경험을 주는 나눔과 기원의 시장. 외포항 젓갈수산물 직판장입니다.
                             </p>
                         </div>
-                        <div class="box_img2">
+                        <div class="box_img2" style="margin-top:100px;">
                             <img src="${path0 }/images/shop6-3.jpg" id="intro_img" alt="intro3">
                             <img src="${path0 }/images/shop6-4.jpg" id="intro_img" alt="intro4">
                             <img src="${path0 }/images/shop6-5.jpg" id="intro_img" alt="intro5">

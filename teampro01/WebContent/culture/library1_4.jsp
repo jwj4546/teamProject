@@ -19,7 +19,7 @@
     #intro_img2 { display: flex; width: 500px; height: auto; margin-left: 60px; margin-right: 70px; margin-top: 40px; 
     border:2px solid #000; }
     .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 400px; }
-    .btn1 { width: 900px; margin: 0 auto; }
+    .btn1 { width: 900px; margin: 0 auto; text-align:center;}
     .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
@@ -66,11 +66,11 @@
                             <img src="${path0 }/images/library4_1.jpg" id="intro_img2" alt="library4">
                         </div>
                         <div class="intro">
-                            <p>유형 : 사설도서관</p><br><br>
-                            <p>연락처 : 032-937-2596</p><br><br>
-                            <p>쉬는날 : 매주 토, 일</p><br><br>
-                            <p>운영시간 : 월 ~ 금요일 10:00 ~ 18:00</p><br><br>
-                            <p>소개글 : 책과 함께 꿈·생각·마음이 자라는 도서관</p><br><br>
+                            <p>유형 : 사설도서관</p><br>
+                            <p>연락처 : 032-937-2596</p><br>
+                            <p>쉬는날 : 매주 토, 일</p><br>
+                            <p>운영시간 : 월 ~ 금요일 10:00 ~ 18:00</p><br>
+                            <p>소개글 : 책과 함께 꿈·생각·마음이 자라는 도서관</p><br>
                             <p>주소 : 인천광역시 강화군 양도면 강화남로 645-14 (능내리, 강화바람언덕)</p>
                         </div>
                         <div class="btn1">
@@ -78,11 +78,7 @@
                                 <img src="${path0 }/images/map.png" id="map_img" alt="map"> 
                                 <span>지도보기</span>
                             </button>
-                            <button>
-                                <img src="${path0 }/images/heart.png" id="btn_img" alt="like"> 
-                                <span>좋아요</span>
-                            </button>
-                            <button onclick="window.location.href='${path0 }/culture/gallery.jsp'">
+                            <button onclick="window.location.href='${path0 }/culture/library.jsp'">
                                 <img src="${path0 }/images/list.png" id="btn_img" alt="list"> 
                                 <span>목록으로</span>
                             </button>

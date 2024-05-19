@@ -19,7 +19,7 @@
     #intro_img2 { display: flex; width: 500px; height: auto; margin-left: 60px; margin-right: 70px; margin-top: 40px; 
     border:2px solid #000; }
     .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 400px; }
-    .btn1 { width: 900px; margin: 0 auto; }
+    .btn1 { width: 900px; margin: 0 auto; text-align:center;}
     .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
@@ -66,11 +66,11 @@
                             <img src="${path0 }/images/library2_1.jpg" id="intro_img2" alt="library2">
                         </div>
                         <div class="intro">
-                            <p>유형 : 공공도서관</p><br><br>
-                            <p>연락처 : 032-937-7975</p><br><br>
-                            <p>쉬는날 : 토·일요일, 공휴일</p><br><br>
-                            <p>운영시간 : 평일 10:00 ~ 18:00</p><br><br>
-                            <p>소개글 : 지역주민의 사랑방 역할을 하는 생활친화적 문화공간(2022.12.27. 부터 임시 휴관중)</p><br><br>
+                            <p>유형 : 공공도서관</p><br>
+                            <p>연락처 : 032-937-7975</p><br>
+                            <p>쉬는날 : 토·일요일, 공휴일</p><br>
+                            <p>운영시간 : 평일 10:00 ~ 18:00</p><br>
+                            <p>소개글 : 지역주민의 사랑방 역할을 하는 생활친화적 문화공간(2022.12.27. 부터 임시 휴관중)</p><br>
                             <p>주소 : 인천광역시 강화군 길상면 강화동로 15(온수리, 길상작은도서관)</p>
                         </div>
                         <div class="btn1">
@@ -78,11 +78,7 @@
                                 <img src="${path0 }/images/map.png" id="map_img" alt="map"> 
                                 <span>지도보기</span>
                             </button>
-                            <button>
-                                <img src="${path0 }/images/heart.png" id="btn_img" alt="like"> 
-                                <span>좋아요</span>
-                            </button>
-                            <button onclick="window.location.href='${path0 }/culture/gallery.jsp'">
+                            <button onclick="window.location.href='${path0 }/culture/library.jsp'">
                                 <img src="${path0 }/images/list.png" id="btn_img" alt="list"> 
                                 <span>목록으로</span>
                             </button>

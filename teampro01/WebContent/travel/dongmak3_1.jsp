@@ -27,7 +27,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -99,9 +99,7 @@
 		
 		                                강화여행에서 빼놓을 수 없는 곳이 동막입니다. 동막해변은 백사장과 울창한 소나무 숲으로 둘러쌓여 천혜의 자연경관을 자랑하고 있습니다. 
 		                                강화남단에 펼쳐진 갯벌은 무려 1천8백만평이며 물이 빠지면 직선 4km까지 갯벌로 변합니다. 검은 개흙을 뒤집어 쓰고 기어가는 칠게,가무락,쌀무늬고둥,갯지렁이가 
-		                                이곳에 살고 있습니다. 밀물 시에는 해수욕을 썰물 시에는 갯벌에 사는 여러 가지 생물들을 관찰할 수 있습니다. 가족단위의 여름휴양지로 널리 알려져 있으며 
-		                                인근 분오리돈대에 오르면 강화의 남단갯벌이 한눈에 들어오고 멀리 인천국제공항도 보입니다. 또한 주변에 함허동천 시범야영장 및 정수사 등의 볼거리가 있습니다.
-		                                ※ 갯벌생태계의 보존을 위하여 생물들을 눈으로만 봐주세요. 관광객들이 생물들을 포획하면 갯벌은 순식간에 아무도 살지 못하는 곳이 되어 버립니다.<br>
+		                                이곳에 살고 있습니다. 밀물 시에는 해수욕을 썰물 시에는 갯벌에 사는 여러 가지 생물들을 관찰할 수 있습니다. 인근 분오리돈대에 오르면 강화의 남단갯벌이 한눈에 들어오고 멀리 인천국제공항도 보입니다. 또한 주변에 함허동천 시범야영장 및 정수사 등의 볼거리가 있습니다.<br>
 		
 		
 		                                <br>[참고] 강화군 홈페이지 참조
@@ -113,10 +111,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EB%8F%99%EB%A7%89%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5/data=!3m1!4b1!4m6!3m5!1s0x357b864a087668eb:0xf92112b1fa0c8ded!8m2!3d37.5925761!4d126.4581875!16s%2Fg%2F11h1thk5k5?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/beach3.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

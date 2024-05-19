@@ -23,18 +23,6 @@
 </style>
 <title>회원가입</title>
 
-<style>
-#contents { height: 1300px; }
-.wrap .box li { margin-top:30px; margin-left: 70px; float: left; width: 300px; height: 300px; 
-border: 1px solid #000; position: relative; }
-.wrap .box li:hover #cover { display: block; cursor: pointer; }
-
-.box .text { z-index: 10; position: absolute; width: 300px; height: 50px; line-height: 50px; text-align: center; 
-font-weight: bold; font-size: 17px; background-color: #eccfe9; }
-
-#img { width: 300px; height: 300px; position: absolute; z-index: 10; }
-#cover { width: 300px; height: 300px; position: absolute; display: none; z-index: 11; }
-</style>
 
 <style>
 h3 { margin-left: 70px; margin-top: 30px; }
@@ -46,6 +34,8 @@ margin-right: 30px; cursor: pointer; }
 .btn .btn2 { width: 150px; height: 40px; line-height: 20px; border-radius: 20px; background-color: #f3b8da; font-weight: bold; 
 cursor: pointer; }
 .btn .btn2:hover { background-color: #f890cc; }
+
+
 </style>
 
 <style>
@@ -84,6 +74,7 @@ margin-left: 70px; margin-top: 30px;
 </div>
 	<main id="contents" class="clr-fix">
         <div class="wrap clr-fix">
+        <div class="contents_wrap">
             <aside id="left1">
                     <nav id="lnb">
                         <ul class="menu">
@@ -342,6 +333,7 @@ margin-left: 70px; margin-top: 30px;
                     </div>
                 </div>
             </div>
+           </div>
             <script>
 			var ck_item1 = document.getElementById("check_item1");
 			var ck_item2 = document.getElementById("check_item2");

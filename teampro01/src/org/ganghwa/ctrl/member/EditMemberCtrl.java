@@ -29,13 +29,13 @@ public class EditMemberCtrl extends HttpServlet {
 		MemberDAO dao = new MemberDAO();
 		Member member = dao.getMember(id);
 		
-		String key = "%02x";
-		
-		try {
-			member.setPw(AES256.decryptAES256(member.getPw(), key));
-		} catch (Exception e) {
-			e.printStackTrace();
-		} 
+//		String key = "%02x";
+//		
+//		try {
+//			member.setPw(AES256.decryptAES256(member.getPw(), key));
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		} 
 		
 		
 		request.setAttribute("member", member);

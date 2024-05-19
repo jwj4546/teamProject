@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -103,13 +103,10 @@
 		                                【소재지】 :(23007) 인천광역시 강화군 삼산면 삼산남로828번길 44 (매음리<br>
 		                                【문의처】 : 032-933-8271<br><br>
 		                            
-		                                석모대교를 건너 차량으로 15분간 들어가면 낙가산 서쪽바다가 굽어 보이는 곳에 보문사가 자리잡고 있습니다. 
 		                                선덕여왕 4년(635) 회정대사가 금강산으로부터 이곳에 와서 처음으로 절을 세우고 보문사라 하였습니다. 
 		                                보문사는 우리나라 3대 관음성지로서 절을 창건 후 14년이 되던 해에 고씨성을 가진 어부가 바닷가에서 
-		                                불상과 나한상 22구를 그물로 낚아올려 절의 우측 석굴에 봉안하였다고 합니다. 그 때로부터 이 석굴에 기도를 하면 
-		                                기적이 이루어져 많은 신도들이 이곳을 찾고 있습니다. 절 뒤편에는 마애석불이 조각되어 있으며 
-		                                그 앞에서 보이는 서해풍광 또한 일품입니다. 보문사 경내에는 300여명의 승려들이 수도했을 당시 사용하였다는 
-		                                큰 맷돌과 향나무, 1975년에 주조한 범종이 있습니다. <br><br>
+		                                불상과 나한상 22구를 그물로 낚아올려 절의 우측 석굴에 봉안하였다고 합니다. 절 뒤편에는 마애석불이 조각되어 있으며 
+		                               보문사 경내에는 300여명의 승려들이 수도했을 당시 사용하였다는  1975년에 주조한 범종이 있습니다. <br><br>
 		
 		
 		                                <br>[참고] 강화군 홈페이지 참조
@@ -121,10 +118,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EA%B0%95%ED%99%94%EA%B5%B0+%EC%82%BC%EC%82%B0%EB%A9%B4+%EC%82%BC%EC%82%B0%EB%82%A8%EB%A1%9C828%EB%B2%88%EA%B8%B8+44/data=!3m1!4b1!4m6!3m5!1s0x357c758e93a215e7:0xcbb9941499e737df!8m2!3d37.6887462!4d126.3214884!16s%2Fg%2F11bzbjhrkh?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/temple2.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

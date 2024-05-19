@@ -183,9 +183,14 @@ display: block;
 					<li><a href="${path0 }/member/login.jsp">로그인</a></li>
 					<li><a href="${path0 }/member/join1.jsp">회원가입</a></li>
 					</c:if>
-					<c:if test="${!empty sid }">
-					<li><a href="${path0 }/LogOut.do" onclick="log_out()">로그아웃</a></li>
-					<li><a href="${path0 }/EditMember.do?id=${sid }">회원정보</a></li>
+					<c:if test="${!empty sid}">
+					    <li><a href="${path0}/LogOut.do" onclick="log_out()">로그아웃</a></li>
+					    <c:if test="${sid != 'admin'}">
+					    <li><a href="${path0}/EditMember.do?id=${sid}">회원정보</a></li>
+					    </c:if>
+					    <c:if test="${sid == 'admin'}">
+				        <li><a href="${path0}/admin/index.jsp">시스템관리자</a></li>
+					    </c:if>
 					</c:if>
 					<li><a href="${path0 }/notice/noticeList.jsp">공지사항</a></li>
 					<li><a href="${path0 }/qna/qnaList.jsp">건의사항</a></li>

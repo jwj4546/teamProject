@@ -28,9 +28,9 @@ public class GetNoticeCtrl extends HttpServlet {
 		int no = Integer.parseInt(request.getParameter("no"));
 		
 		NoticeDAO dao = new NoticeDAO();
-		Notice noti = dao.getNotice(no);
+		Notice notice = dao.getNotice(no);
 		
-		request.setAttribute("noti", noti);
+		request.setAttribute("notice", notice);
 		RequestDispatcher view = request.getRequestDispatcher("/notice/getNotice.jsp");
 		view.forward(request, response);
 	}

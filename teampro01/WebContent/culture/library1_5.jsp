@@ -19,7 +19,7 @@
     #intro_img2 { display: flex; width: 500px; height: auto; margin-left: 60px; margin-right: 70px; margin-top: 40px; 
     border:2px solid #000; }
     .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 400px; }
-    .btn1 { width: 900px; margin: 0 auto; }
+    .btn1 { width: 900px; margin: 0 auto; text-align:center;}
     .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
@@ -66,12 +66,12 @@
                             <img src="${path0 }/images/library5_1.gif" id="intro_img2" alt="library5">
                         </div>
                         <div class="intro">
-                            <p>유형 : 공공도서관</p><br><br>
-                            <p>연락처 : 032-932-8264</p><br><br>
-                            <p>쉬는날 : 매주 월요일, 국경일</p><br><br>
-                            <p>운영시간 : 평일 09:00 ~ 22:00, 주말 09:00 ~ 18:00</p><br><br>
+                            <p>유형 : 공공도서관</p><br>
+                            <p>연락처 : 032-932-8264</p><br>
+                            <p>쉬는날 : 매주 월요일, 국경일</p><br>
+                            <p>운영시간 : 평일 09:00 ~ 22:00, 주말 09:00 ~ 18:00</p><br>
                             <p>소개글 : 역사의 고장에 위치한 강화군립도서관은 농어촌지역의 종합문화센터로서의 역할과 정보화시대를 선도하는 길잡이로서 지식정</p>
-                            <p>지식정보의 제공은 물론 사회교육의 기회를 제공하여 평생 교육 기반조성에 힘쓰고 있습니다.</p><br><br>
+                            <p>지식정보의 제공은 물론 사회교육의 기회를 제공하여 평생 교육 기반조성에 힘쓰고 있습니다.</p><br>
                             <p>주소 : 인천광역시 강화군 강화읍 북문길9번길 18 (관청리)</p>
                         </div>
                         <div class="btn1">
@@ -79,11 +79,7 @@
                                 <img src="${path0 }/images/map.png" id="map_img" alt="map"> 
                                 <span>지도보기</span>
                             </button>
-                            <button>
-                                <img src="${path0 }/images/heart.png" id="btn_img" alt="like"> 
-                                <span>좋아요</span>
-                            </button>
-                            <button onclick="window.location.href='${path0 }/culture/gallery.jsp'">
+                            <button onclick="window.location.href='${path0 }/culture/library.jsp'">
                                 <img src="${path0 }/images/list.png" id="btn_img" alt="list"> 
                                 <span>목록으로</span>
                             </button>

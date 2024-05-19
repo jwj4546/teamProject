@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -96,20 +96,15 @@
 		                            <p><br>
 		                                *보문사 : 대한민국 3대 관음성지로 눈썹바위(마애석불좌상)에서 아름다운 석양 보기<br>
 		                                *민머루해변 : 백사장과 갯벌 둘 다 체험하기<br>
-		                                *석모도 바람길(보문사 가는길) : 16km, 5시간 소요 (석모도 선착장-매음리 선착장-어류정항-민머루해변-어류정 수문-보문사)<br>
-		                                *석모도 상주해안길 : 10km, 3시간 30분 소요 (동촌-석모나루-상주버스종점(석포여객터미널-한전사옥))<br>
 		                                *어류정항, 장구너머 어판장 : 싱싱한 활어회 맛보기<br>
-		                                *석모도 미네랄 스파 : 가족과 함께 하는 웰빙 건강 휴양지<br>
-		                                *칠면초 군락지 : 칠면초는 계절별로 색깔이 변하지만 11월이면 가을 단풍과 같이 붉게 물듦<br><br>
+		                                *칠면초 군락지 : 칠면초는 계절별로 색깔이 변하지만 11월이면 가을 단풍과 같이 붉게 물듦<br>
 		
 		
 		                                【가는 방법】<br>
 		                                *버스 : 강화버스터미널-31A, 31B, 35A, 35B, 38A, 38B 이용<br>
 		                                *자가운전 : 김포대로- 중앙로(강화도)- 석모대교- 석모도  (2017.6.28 석모대교 개통)<br><br>
 		                                    
-		                                【관련업체 문의전화】<br>
-		                                *보문사 : 032-933-8271~3   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *석모도수목원 : 032-932-5432<br>
-		                                *석모도자연휴양림 : 032-932-1100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *석모도 미네랄 스파 : 032-930-7053<br>  
+		     
 		                                <ul>
 		                                    <li><a href="https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030071" target="_blank">
 		                                        https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030071<br></a></li>
@@ -119,10 +114,6 @@
 		                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%84%9D%EB%AA%A8%EB%8C%80%EA%B5%90/data=!4m9!1m2!2m1!1z7ISd66qo64-EIOyEoOywqeyepQ!3m5!1s0x357c75ecbb2a5ded:0xee7b8677bf1fecbd!8m2!3d37.7014284!4d126.3526247!16s%2Fg%2F11f3vjvz17?hl=ko&entry=ttu'">
 		                                <img src="${path0 }/images/map.png" id="map_img"> 
 		                                <span>지도보기</span>
-		                            </button>
-		                            <button>
-		                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-		                                <span>좋아요</span>
 		                            </button>
 		                            <button onclick="window.location.href='${path0}/travel/island4.jsp'">
 		                                <img src="${path0 }/images/list.png" id="btn_img"> 

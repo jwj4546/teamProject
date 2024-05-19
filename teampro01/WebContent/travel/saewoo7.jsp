@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -94,14 +94,10 @@
 		                            <img src="${path0 }/images/logo.png" id="title_img">
 		                            <h3 class="sub_title">《개최 안내》</h3>
 		                            <p><br><br>
-		                                【개최일시】<br>
-		                                매년 10월중 <9일간><br><br>
-		                                【개최장소】<br>
-		                                인천광역시 강화군 내가면 해안서로 899-2<br><br>
-		                                【문의전화】<br>
-		                                032-932-9337 ( 운영시간 09:00 ~ 18:00)(점심시간제외)<br><br>
-		                                【주최】<br>
-		                                새우젓축제조직위원회 </p><br><br>
+		                                【개최일시】   매년 10월중 <9일간><br><br>
+		                                【개최장소】 인천광역시 강화군 내가면 해안서로 899-2<br><br>
+		                                【문의전화】 032-932-9337 ( 운영시간 09:00 ~ 18:00)(점심시간제외)<br><br>
+		                                【주최】  새우젓축제조직위원회 </p><br><br>
 		                                
 		                                자세한 사항은 관련 페이지 참조 부탁드립니다<br><br>
                                 <ul>
@@ -112,10 +108,6 @@
                             <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EA%B0%95%ED%99%94%EA%B5%B0+%EB%82%B4%EA%B0%80%EB%A9%B4+%ED%95%B4%EC%95%88%EC%84%9C%EB%A1%9C+899-2/data=!3m1!4b1!4m6!3m5!1s0x357c76f667c3bd5f:0x8f0dc2ed14b5bd1a!8m2!3d37.7011086!4d126.3781068!16s%2Fg%2F11bzlzjvwy?hl=ko&entry=ttu'">
                                 <img src="${path0 }/images/map.png" id="map_img"> 
                                 <span>지도보기</span>
-                            </button>
-                            <button>
-                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-                                <span>좋아요</span>
                             </button>
                             <button onclick="window.location.href='${path0}/travel/history1.jsp'">
                                 <img src="${path0 }/images/list.png" id="btn_img"> 

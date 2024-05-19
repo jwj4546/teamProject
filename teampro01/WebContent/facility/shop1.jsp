@@ -20,7 +20,7 @@
 #intro_img2 { display: flex; width: 500px; height: 400px; margin-left: 60px; margin-right: 70px; margin-top: 40px; 
 border:2px solid #000; }
 .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 400px; }
-.btn1 { width: 900px; margin: 0 auto; }
+.btn1 { width: 900px; margin: 0 auto; text-align: center; }
 .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
 border: 2px dotted #FF9898; }
 .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
@@ -84,14 +84,9 @@ border: 2px dotted #FF9898; }
                                 <br><br>
                                 <strong>[ 대표전화 ]</strong> 풍물시장 상인회(032-934-1318), 시설관리공단(032-930-7042)
                                 <br><br>
-                                <strong>[ 소개글 ]</strong><br>
-                                &nbsp;강화버스터미널에서 몇 걸음 걸어가다 보면, 풍물시장 건물이 한 눈에 들어온다. 
-                                풍물시장은 강화민속장 명소화사업으로 현대화되어 2007년 신축되었다. 
-                                시장 1층에는 풍물장, 회센터가 있어 가격 흥정하는 재미와 싱싱한 회를 즐길 수 있고, 
-                                2층에는 풍물장과 식당이 있어 강화 여행길에 배고픔을 잊게 해 줄 맛난 먹거리와 볼거리가 있다.
                             </p>
                         </div>
-                       <div class="btn1">
+                       <div class="btn1" >
                            <button onclick="window.location.href='${path0 }/facility/shop.jsp'">
                                <img src="${path0 }/images/list.png" id="btn_img" alt="btn_img"> 
                                <span>목록으로</span>

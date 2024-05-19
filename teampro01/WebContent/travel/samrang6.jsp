@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -94,14 +94,10 @@
 		                            <img src="${path0 }/images/logo.png" id="title_img">
 		                            <h3 class="sub_title">《개최 안내》</h3>
 		                            <p><br><br>
-		                                【개최일시】<br>
-		                                매년 10월초 <9일간><br><br>
-		                                【개최장소】<br>
-		                                전등사 내(인천광역시 강화군 길상면 전등사로 37-41)<br><br>
-		                                【문의전화】<br>
-		                                032-937-0125 ( 운영시간 09:00 ~ 18:00)(점심시간제외)<br><br>
-		                                【주최】<br>
-		                                삼랑성역사문화축제조직위원회 </p><br><br>
+		                                【개최일시】  매년 10월초 <9일간><br><br>
+		                                【개최장소】  전등사 내(인천광역시 강화군 길상면 전등사로 37-41)<br><br>
+		                                【문의전화】 032-937-0125 ( 운영시간 09:00 ~ 18:00)(점심시간제외)<br><br>
+		                                【주최】   삼랑성역사문화축제조직위원회 </p><br><br>
 		                                
 		                                자세한 사항은 관련 페이지 참조 부탁드립니다<br><br>
 		                                <ul>
@@ -114,10 +110,6 @@
 		                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%A0%84%EB%93%B1%EC%82%AC/data=!4m10!1m2!2m1!1z7KCE65Ox7IKs!3m6!1s0x357c788584085451:0x45f1221881ee8411!8m2!3d37.6321323!4d126.4874764!15sCgnsoITrk7HsgqySAQ9idWRkaGlzdF90ZW1wbGXgAQA!16s%2Fg%2F11f64dm_2l?hl=ko&entry=ttu'">
 		                                <img src="${path0 }/images/map.png" id="map_img"> 
 		                                <span>지도보기</span>
-		                            </button>
-		                            <button>
-		                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-		                                <span>좋아요</span>
 		                            </button>
 		                            <button onclick="window.location.href='${path0}/travel/history1.jsp'">
 		                                <img src="${path0 }/images/list.png" id="btn_img"> 

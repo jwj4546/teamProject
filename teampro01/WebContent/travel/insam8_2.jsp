@@ -33,7 +33,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -100,12 +100,8 @@
 		                            <h3 class="sub_title">《관광포인트》</h3>
 		                            <p><br>   
 		                                인삼은 우리나라의 대표적 약용식물로서 성장이 매우 느려 약리작용을 위해서는 4~6년간의 재배기간이 
-		                                반드시 필요한 식물입니다. 강화인삼은 고려인삼의 원산으로 고려 고종(1232)때부터 재배가 시작되었으며, 
-		                                한국전쟁이 터지자 인삼의 본거지인 개성사람들이 이곳에 피난와 1953년부터 본격 재배가 이루어 졌습니다. 
-		                                섬지역인 강화는 해양성 기후로 인삼재배를 위한 알맞은 기후, 토양 등 까다로운 환경조건을 갖추고 있어 
-		                                6년근 인삼재배의 최적지입니다. 인천광역시 강화군 강화읍 강화대로 335 <br><br>
+		                                반드시 필요한 식물입니다. 강화인삼은 고려인삼의 원산으로 고려 고종(1232)때부터 재배가 시작되었습니다<. br><br>
 		                                
-		
 		                                【강화인삼협동조합 강화인삼센터】 :  032-933-5001 ~4 / 인천 강화군 강화읍 강화대로 335<br>
 		                                【강화고려인삼영농조합법인】 : 032-934-2442 / 인천 강화군 강화읍 강화대로 96<br>
 		                                【강화초지인삼영농조합법인】 :  032-937-5934 / 인천 강화군 길상면 초지로 151<br><br>
@@ -120,10 +116,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EA%B0%95%ED%99%94%EC%9D%B8%EC%82%BC%EC%84%BC%ED%84%B0/data=!4m10!1m2!2m1!1z6rCV7ZmU7J247IK87IS87YSw!3m6!1s0x357c7b1041e74909:0x732516f7e793fedc!8m2!3d37.7424213!4d126.4925677!15sChLqsJXtmZTsnbjsgrzshLzthLBaFiIU6rCV7ZmUIOyduOyCvCDshLzthLCaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUjRlbVZEY0ROQlJSQULgAQA!16s%2Fg%2F1xfslntr?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/farmersmarket8.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

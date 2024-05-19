@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -99,8 +99,7 @@
 		
 		                                고구려 장수와 4년(서기416년)병진해 천축조사께서 개산창건하고 청련사라 게액했다. 
 		                                신라 실성왕 15년 동진안제 의회 12년 백제 전치왕 12년 불기 1443년 조선 순조왕 21년(서기 1820)신사해 
-		                                화주비구니 포겸스님에 의하여 당 사찰을 중건하는 등 그뒤에도 여러차례의 중건중수를 거쳐 왔으나 건물이 워낙 낡고 퇴락하여 
-		                                1979년 4월 주지 비구니 황법우 스님이 고려 건축양식으로 현존의 큰 법당을 신축하였다. 
+		                                화주비구니 포겸스님에 의하여 당 사찰을 중건하였고  1979년 4월 주지 비구니 황법우 스님이 고려 건축양식으로 현존의 큰 법당을 신축하였다. 
 		                                본 사찰 위쪽에 원통암이라고 하는 작은 암자가 있었으나 1984.5.29 청련사와 합병하였다.<br>
 		
 		                                <br>[참고] 강화군 홈페이지 참조
@@ -112,10 +111,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%B2%AD%EB%A0%A8%EC%82%AC/data=!4m15!1m8!3m7!1s0x357c7a62d025a411:0x32e5948d8445559!2z7J247LKc6rSR7Jet7IucIOqwle2ZlOq1sCDqsJXtmZTsnY0g6rOg67mE6rOg6rCc66GcMTg467KI6ri4IDExMg!3b1!8m2!3d37.7466034!4d126.4480033!16s%2Fg%2F11bzfjg_j7!3m5!1s0x357c7a62d7851b35:0x51232b478e4ff3ee!8m2!3d37.7458555!4d126.4485168!16s%2Fg%2F11cmg4jfm3?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/temple2.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

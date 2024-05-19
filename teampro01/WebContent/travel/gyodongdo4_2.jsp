@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -95,16 +95,11 @@
                             <h3 class="sub_title">《관광포인트》</h3>
                             <p><br>
                                 *월선포 : 교동대교를 배경으로 사진 찍기(다을새길 안내표지판앞에 베스트 포토스팟)<br>
-                                *대룡시장 : 교동이발관, 동산약방 등 오래된 가게 앞에서 사진 찍기, 전설의 마녀 촬영지(거북당) 구경하기, 쌀강정 등 전통 주전부리, 옛날 다방 등<br>
-                                *교동도 다을새길 걷기 : 16km, 6시간 소요<br>
-                                (월선포 선착장-교동향교-화개사-화개산정상-석천당-대룡시장-남산포-교동읍성-동진포-월선포 선착장)<br>
-                                *교동도 머르메 가는길 걷기 : 17.2km, 6시간 소요<br>
-                                (대룡리-난정저수지-수정산-금정굴-애기봉-죽산포-머르메-양갑리마을회관-미곡종합처리장-대룡리)<br>
+                                *대룡시장 : 교동이발관, 동산약방 등 오래된 가게 앞에서 사진 찍기,쌀강정 등 전통 주전부리, 옛날 다방 등<br>
                                 *제비집 : 교동8경 감상, 가상현실 영상체험, 신문만들기, 카페와 전시관 등<br>
                                 *화개정원 : 화개산에 5개의 테마공원으로 조성된 수도권 최고의 휴식형 가족공원<br>
-                                *화개산 모노레일 : 모노레일을 타고 편하게 올라가 전망대에 오르면 화개정원과 한강하구와 서해바다의 아름다운 풍경, <br>북녘 땅에 흐르는 예성강을 따라 펼쳐진 연백평야 관람<br>
-                                *고구저수지 : 8월이면 연꽃이 가득피는 여름관광명소, 붕어가 잡히는 낚시터로도 유명<br>
-                                *난정저수지 : 마을 주민들이 직접 10만 그루의 해바라기를 심어 조성한 해바라기 밭으로 8월 말 ~ 9월 초의 관광명소<br><br>
+                                *화개산 모노레일 : 모노레일을 타고 편하게 올라가 전망대에 오르면 화개정원과 한강하구와 서해바다의 아름다운 풍경<br> 
+                              
 
 
                                 【가는 방법】<br>
@@ -124,10 +119,6 @@
                             <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EA%B0%95%ED%99%94%EA%B5%B0+%EA%B5%90%EB%8F%99%EB%A9%B4+%EB%B4%89%EC%86%8C%EB%A6%AC+1026-25/data=!3m1!4b1!4m9!1m2!2m1!1z6rWQ64-Z64yA6rWQ!3m5!1s0x357c72353fb08461:0xc52318eca77a95d3!8m2!3d37.791662!4d126.329621!16s%2Fg%2F11jz7r3436?hl=ko&entry=ttu'">
                                 <img src="${path0 }/images/map.png" id="map_img"> 
                                 <span>지도보기</span>
-                            </button>
-                            <button>
-                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-                                <span>좋아요</span>
                             </button>
                             <button onclick="window.location.href='${path0}/travel/island4.jsp'">
                                 <img src="${path0 }/images/list.png" id="btn_img"> 

@@ -27,7 +27,7 @@
 .contents { height: 1000px; }
 #contents { height: 1000px; }
 #left1 { height: 1000px; }
-.wrap .box li { margin-top:30px; margin-left: 70px; float: left; width: 300px; height: 300px; 
+.wrap .box li { margin-top:30px; margin-left: 70px; float: left; width: 302px; height: 302px; 
 border: 1px solid #000; position: relative; }
 .wrap .box li:hover #cover { display: block; cursor: pointer; }
 
@@ -69,23 +69,23 @@ font-weight: bold; font-size: 17px; background-color: #eccfe9; }
                     <div class="wrap">
                         <div class="box">
                             <li>
-                                <a href="${path0 }/MemberList.do"><img src="./img/look4.png" id="cover" alt="cover"></a>
-                                <img src="./img/member.png" alt="member" id="img">
+                                <a href="${path0 }/MemberList.do"><img src="${path0 }/images/look4.png" id="cover" alt="cover"></a>
+                                <img src="${path0 }/images/member.png" alt="member" id="img">
                                 <span class="text">회원관리</span>
                             </li>
                             <li>
-                                <a href="${path0 }/NoticeList.do"><img src="./img/look4.png" id="cover" alt="cover"></a>
-                                <img src="./img/notice.png" alt="notice" id="img">
+                                <a href="${path0 }/NoticeList.do"><img src="${path0 }/images/look4.png" id="cover" alt="cover"></a>
+                                <img src="${path0 }/images/notice.png" alt="notice" id="img">
                                 <span class="text">공지사항 관리</span>
                             </li>
                             <li>
-                                <a href="${path0 }/GetQnaList.do"><img src="./img/look4.png" id="cover" alt="cover"></a>
-                                <img src="./img/qna.png" alt="qna" id="img">
+                                <a href="${path0 }/GetQnaList.do"><img src="${path0 }/images/look4.png" id="cover" alt="cover"></a>
+                                <img src="${path0 }/images/qna.png" alt="qna" id="img">
                                 <span class="text">건의사항 관리</span>
                             </li>
                             <li>
-                                <a href="${path0 }/member/memberInfo.jsp"><img src="./img/look4.png" id="cover" alt="cover"></a>
-                                <img src="./img/memberInfo.png" alt="memberInfo" id="img">
+                                <a href="${path0}/EditMember.do?id=${sid}"><img src="${path0 }/images/look4.png" id="cover" alt="cover"></a>
+                                <img src="${path0 }/images/memberInfo.png" alt="memberInfo" id="img">
                                 <span class="text">회원정보수정</span>
                             </li>
                         </div>

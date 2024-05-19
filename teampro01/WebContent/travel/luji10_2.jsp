@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -94,10 +94,7 @@
 		                            <img src="${path0 }/images/logo.png" id="title_img">
 		                            <h3 class="sub_title">《관광포인트》</h3>
 		                            <p><br>
-		                                일상을 넘어 새로움이 시작되는 곳, 강화씨사이드리조트 강화루지!
-		                                스릴과 스피드를 즐길 수 있는 루지와 강화도의 특별한 풍경을 볼 수 있는 케이블카, 360도 회전하며 서해안의 상쾌함을 느낄 수 있는 전망대까지!<br>
-		                                당신이 원하는 그 모든 것이 강화씨사이드리조트에 있습니다. 다양한 편의시설과 푸드코트, 그리고 캠핑형BBQ와 베이커리까지! 4가지 매력이 가득한 강화씨사이드리조트에 당신의 하루를 맡겨보세요.<br><br>
-		
+
 		                                【위치】 : 인천광역시 강화군 길상면 장흥로 217, 강화씨사이드리조트<br>
 		                                【주요시설】 : 루지, 케이블카(곤돌라), 회전전망대, 캠핑형BBQ장, 베이커리카페(달스베이커리&탐앤탐스), 각종 편의시설<br>
 		                                【이용시간】 : 09:30 ~ 18:30(평일 17:30)<br>
@@ -114,10 +111,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EA%B0%95%ED%99%94%EC%94%A8%EC%82%AC%EC%9D%B4%EB%93%9C%EB%A6%AC%EC%A1%B0%ED%8A%B8/data=!4m15!1m8!3m7!1s0x357b8761b44aadbd:0x2613494ddf85fa06!2z7J247LKc6rSR7Jet7IucIOqwle2ZlOq1sCDquLjsg4HrqbQg7J6l7Z2l66GcIDIxNw!3b1!8m2!3d37.6180014!4d126.498387!16s%2Fg%2F11tjfgldqd!3m5!1s0x357b871d594620c1:0xd870611ba66ca9a4!8m2!3d37.6172749!4d126.4992046!16s%2Fg%2F11f6xz4yk7?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/reports10.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

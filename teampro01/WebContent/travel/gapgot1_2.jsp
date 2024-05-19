@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -98,14 +98,10 @@
 		                                【소재지】 : 소재지 : (23027) 인천광역시 강화군 강화읍 해안동로1366번길 18 (갑곳리<br>
 		                                【문의처】 : 032-930-7070<br><br>
 		                                돈대는 해안가나 접경 지역에 돌이나 흙으로 쌓은 소규모 관측·방어시설이다. <br>
-		                                병사들이 돈대 안에서 경계근무를 서며 외적의 척후 활동을 비롯한 각종 수상한 정황을 살피고 대처한다. <br>
-		                                적이 침략할 때는 돈대 안에 비치된 무기로 방어전을 펼친다. 조선시대 강화도 해안에 돌로 쌓은 돈대 53개가 설치됐다. <br>
 		                                갑곶돈대는 1679년(숙종 5) 5월에 완성된 48돈대 가운데 하나이다.
-		                                48돈대는 황해도·강원도·함경도 승군 8,900명과 어영청 소속 어영군 4,262명이 80일 정도 걸려서 쌓았다. <br>
-		                                돈대 축조를 기획하고 감독한 이는 병조판서 김석주였고 실무 총괄은 강화유수 윤이제였다. <br>
+		             48돈대는 황해도·강원도·함경도 승군 8,900명과 어영청 소속 어영군 4,262명이 80일 정도 걸려서 쌓았다. <br>
 		                                갑곶돈대는 망해돈대·제승돈대·염주돈대와 함께 제물진의 관할 하에 있었다. 외부에서 강화로 들어오는 관문과 가까워 중요성이 <br>
-		                                더욱 강조된 돈대이다. 포좌가 있는 본래의 갑곶돈대는 옛 강화대교 입구의 북쪽 언덕에 있었다. <br>
-		                                지금 사적으로 지정된 갑곶돈대는 제물진과 강화 외성의 일부이다.<br><br>
+		                                더욱 강조된 돈대이다.<br><br>
 		                                <br>[참고] 강화군 홈페이지 참조
 	                                <ul>
 	                                    <li><a href="https://www.ganghwa.go.kr/open_content/tour/tour/tourInfoDetail.do?tour_seq=3&tourdiv=eight" target="_blank">
@@ -115,10 +111,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EA%B0%95%ED%99%94%EA%B5%B0+%EA%B0%95%ED%99%94%EC%9D%8D+%ED%95%B4%EC%95%88%EB%8F%99%EB%A1%9C1366%EB%B2%88%EA%B8%B8+18/data=!3m1!4b1!4m6!3m5!1s0x357c7b64eae3c0f5:0x422cba3c6b735d39!8m2!3d37.7346171!4d126.5162771!16s%2Fg%2F11bz9dgcw1?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/history1.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

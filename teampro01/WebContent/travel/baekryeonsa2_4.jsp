@@ -28,8 +28,8 @@
     .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 400px; }
 
 
-    .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 { width: 900px; margin: 0 auto; text-align-ctent }
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -102,9 +102,7 @@
 		                                고구려 장수왕 4년 병진(서기416)에 고려산을 답사하던 천축조사가 이 산 상봉 오련지(다섯개의 연못)에 오색연화가 찬란히 피어 있는 것을 발견하고 
 		                                그 오색 연화를 채취하여 공중에 날려 그 연화들이 낙하한 곳마다 가람을 세웠는데 바로 이곳이 그중 백련이 낙하한 곳이다. 
 		                                조선 고종 광무9년(서기1905) 을사년 봄에 인암화상이 화주 박보월로 본가람을 중건케하고 서기1967년 정미년 봄에 비구니 한성탄이 
-		                                극락전과 삼성각을 중수 하였다. 조선 순조6년 병인년(1806년) 3월에 서산대사 제6세손 천봉후인 의해당 처월대사의 사리비와 부도탑이 건립되었고, 
-		                                서기1983년 비구니 한성탄이 도로 불사와 서기1986년에 범종을 조성 하였으며, 철불아미타불 좌상이 보물994호로 서기1989년에 지정되었고, 
-		                                그해 12월 11일날 도난당했다. 기록에 의하면 팔만대장경이 본 가람에 한때 봉안되었다 한다.<br>
+		                                극락전과 삼성각을 중수 하였다. 기록에 의하면 팔만대장경이 본 가람에 한때 봉안되었다 한다.<br>
 		
 		
 		                                <br>[참고] 강화군 홈페이지 참조
@@ -116,10 +114,6 @@
                             <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EA%B0%95%ED%99%94+%EB%B0%B1%EB%A0%A8%EC%82%AC/data=!4m15!1m8!3m7!1s0x357c7a7fe7b0f0a5:0x263b3f2090432889!2z7J247LKc6rSR7Jet7IucIOqwle2ZlOq1sCDtlZjsoJDrqbQg6rOg66Ck7IKw66GcNjHrsojquLggMjcw!3b1!8m2!3d37.7513857!4d126.4370123!16s%2Fg%2F11bzfvyn2t!3m5!1s0x357c7a7ff244198b:0x7e1fe1b9d3f9ed54!8m2!3d37.7510304!4d126.4374339!16s%2Fg%2F11c5_y7dkn?hl=ko&entry=ttu'">
                                 <img src="${path0 }/images/map.png" id="map_img"> 
                                 <span>지도보기</span>
-                            </button>
-                            <button>
-                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-                                <span>좋아요</span>
                             </button>
                             <button onclick="window.location.href='${path0}/travel/temple2.jsp'">
                                 <img src="${path0 }/images/list.png" id="btn_img"> 

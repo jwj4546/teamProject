@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -96,13 +96,8 @@
 		                            <p><br>
 		                                *뒷장술해변 : 5월엔 해당화, 10월엔 기러기와 야생오리관찰 가능, 상합 등 조개캐기 체험<br>
 		                                (민박집 경운기 사전신청 후 이용)<br>
-		                                *서도중앙교회 : 한국 전통의 목조 건물 형식으로 지어진 특별한 건물<br>
 		                                *영뜰해변 : 볼음도에서 가장 큰 해변으로 전망대 앞 망원경으로 저어새 관찰 가능<br>
-		                                *볼음도 은행나무 : 800여년 이상 전해지는 나무로 가을에 노랗게 물든 나무 앞에서 사진찍기<br>
-		                                *볼음저수지 : 계절별로 다른 꽃이 피어있으며, 조류관찰소에서 다양한 새 구경하기<br>
 		                                *볼음도 저어새생태마을 : 볼음도 중심에 위치한 게스트하우스로 숙박과 체험 제공<br>
-		                                *주문도길 : 11.3km, 3시간 소요<br>
-		                                (주문도 선착장-배너머고개-주문저수지-서도초, 중, 고입구-주문진-서도중앙교회-해당화군락지-살꾸지-뒷장술-고마이-대빈창-주문도 선착장)
 		                                *불음도길 : 13.6km, 3시간 30분 소요<br>
 		                                (볼음도 선착장-물엄곶-조개골해변-영뜰해변-서도은행나무-봉화산-당아래 마을-볼음도 선착장)<br><br>
 		
@@ -124,10 +119,6 @@
                             <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%A3%BC%EB%AC%B8%EB%8F%84+%EC%84%A0%EC%B0%A9%EC%9E%A5/data=!3m1!4b1!4m6!3m5!1s0x357bf49386a78363:0x2d4729caf369dc7e!8m2!3d37.654618!4d126.235626!16s%2Fg%2F11c6d_q4qv?hl=ko&entry=ttu'">
                                 <img src="${path0 }/images/map.png" id="map_img"> 
                                 <span>지도보기</span>
-                            </button>
-                            <button>
-                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-                                <span>좋아요</span>
                             </button>
                             <button onclick="window.location.href='${path0}/travel/island4.jsp'">
                                 <img src="${path0 }/images/list.png" id="btn_img"> 

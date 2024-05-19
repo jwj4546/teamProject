@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.ganghwa.dao.NoticeDAO;
 import org.ganghwa.dto.Notice;
 
-@WebServlet("/NotiList.do")
+@WebServlet("/NoticeList.do")
 public class NoticeListCtrl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -28,9 +28,9 @@ public class NoticeListCtrl extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 		
 		NoticeDAO dao = new NoticeDAO();
-		List<Notice> notiList = new ArrayList<>();
-		notiList = dao.getNoticeList();
-		request.setAttribute("notiList", notiList);		
+		List<Notice> noticeList = new ArrayList<>();
+		noticeList = dao.getNoticeList();
+		request.setAttribute("noticeList", noticeList);		
 		RequestDispatcher view = request.getRequestDispatcher("/notice/noticeList.jsp");
 		view.forward(request, response);
 	}

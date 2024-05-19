@@ -101,7 +101,7 @@ td { font-weight: bold; }
                     </div>
                     <h2 class="title">회원정보</h2>
                     <div class="register-container">
-                        <form action="" method="post">
+                        <form action="${path0 }/EditProMember.do" method="post" onsubmit="return editCheck(this)">
                             <table>
                                 <tr>
                                     <td><label for="id">아이디</label></td>

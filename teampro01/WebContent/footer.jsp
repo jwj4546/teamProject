@@ -8,7 +8,7 @@
                     <li><a href="${path0 }/member/policy.jsp">개인정보처리방침</a></li>
                     <li><a href="${path0 }/traffic/come.jsp">찾아오시는길</a></li>
                 </ul>
-                <div class="loc">
+                <div class="loc" style="margin-left:1200px;">
                     <select name="sel" id="sel" onchange="locate()">
                         <option value="">유관기관</option>
                         <option value="https://www.ganghwa.go.kr/open_content/tour/">강화군 문화관광</option>

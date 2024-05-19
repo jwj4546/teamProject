@@ -27,7 +27,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -98,12 +98,7 @@
 		                                【야영가능】 :백사장(넓이) : 약 15,000㎡ / 해안선(길이) : 약 500m<br>
 		                                【주요시설】 : 야영장, 샤워장 및 탈의장, 사무실<br>
 		                                【소재지】 :  (23007) 인천 강화군 삼산면 매음리 878번지 일원<br><br>
-		
-		                                민머루 해수욕장은 주변 경관이 뛰어나고 물이 빠지면 게, 조개, 낙지 등을 잡을 수 있습니다.
-		                                물이 빠지면 맨발로 갯벌에 들어가 부드러운 흙의 감촉을 마음껏 누릴 수 있으며 아이들과 살아 움직이는 
-		                                생물들을 관찰하다가 바라보는 낙조도 환상적입니다.
-		                                ※ 생물들도 자신들의 집에서 거주할 권리가 있답니다. 어떻게 사는지 관찰한 후 집으로 돌려보낼 수 있는 
-		                                자연보호 정신을 아이들에게 가르쳐주세요.<br>
+	
 		
 		                                <br>[참고] 강화군 홈페이지 참조
 	                                <ul>
@@ -114,10 +109,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EA%B0%95%ED%99%94%EA%B5%B0+%EC%82%BC%EC%82%B0%EB%A9%B4+%EB%A7%A4%EC%9D%8C%EB%A6%AC+878-20/data=!4m10!1m2!2m1!1zKDIzMDA3KSDsnbjsspwg6rCV7ZmU6rWwIOyCvOyCsOuptCDrp6TsnYzrpqwgODc467KI7KeAIOydvOybkA!3m6!1s0x357b8a39773de94d:0x6979f12446ae043!8m2!3d37.6531294!4d126.3327694!15sCj0oMjMwMDcpIOyduOyynCDqsJXtmZTqtbAg7IK87IKw66m0IOunpOydjOumrCA4Nzjrsojsp4Ag7J287JuQkgEQZ2VvY29kZWRfYWRkcmVzc-ABAA!16s%2Fg%2F11sb7dgf6x?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/beach3.jsp'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

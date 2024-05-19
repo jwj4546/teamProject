@@ -28,7 +28,7 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
@@ -115,10 +115,6 @@
 	                            <button onclick="window.location.href='https://www.google.co.kr/maps/place/%EB%8C%80%EB%B9%88%EC%B0%BD+%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5(Daebinchang+Beach)/data=!4m6!3m5!1s0x357bf5b50a8a2049:0x47514a2c2f407c29!8m2!3d37.6468216!4d126.2279327!16s%2Fg%2F11n0cc81nj?hl=ko&entry=ttu'">
 	                                <img src="${path0 }/images/map.png" id="map_img"> 
 	                                <span>지도보기</span>
-	                            </button>
-	                            <button>
-	                                <img src="${path0 }/images/heart.png" id="btn_img"> 
-	                                <span>좋아요</span>
 	                            </button>
 	                            <button onclick="window.location.href='${path0}/travel/beach3.html'">
 	                                <img src="${path0 }/images/list.png" id="btn_img"> 

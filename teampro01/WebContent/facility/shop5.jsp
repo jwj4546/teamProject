@@ -20,7 +20,7 @@
 #intro_img2 { display: flex; width: 500px; height: 400px; margin-left: 60px; margin-right: 70px; margin-top: 40px; 
 border:2px solid #000; }
 .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 400px; }
-.btn1 { width: 900px; margin: 0 auto; }
+.btn1 { width: 900px; margin: 0 auto; text-align: center;}
 .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
 border: 2px dotted #FF9898; }
 .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
@@ -75,7 +75,7 @@ th, td { border: 2px solid #000; padding: 8px; text-align: center; }
                                 <strong>[ 소개글 ]</strong><br>
                                 &nbsp;서해바다 강화의 신선한 해산물을 산지에서 바로 구입 및 즉석요리로 즐길 수 있는 우리 강화군의 어판장 정보입니다.
                             </p>
-                            <br><br><br>
+                            <br>
                             <table>
                                 <thead>
                                     <tr>

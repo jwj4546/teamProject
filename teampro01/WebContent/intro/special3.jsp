@@ -32,8 +32,8 @@
 border:2px solid #000; }
 
 .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 250px; }
-.btn1 { width: 900px; margin: 0 auto; }
-.btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+.btn1 { width: 900px; margin: 0 auto; text-align:center;}
+.btn1 button { margin-left: 70px; margin-top: 100px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
 border: 2px dotted #FF9898; }
 .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
 .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }

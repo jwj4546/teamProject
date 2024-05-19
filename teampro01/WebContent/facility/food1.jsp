@@ -19,7 +19,7 @@
 #intro_img2 { display: flex; width: 500px; height: 400px; margin-left: 60px; margin-right: 70px; margin-top: 40px; 
 border:2px solid #000; }
 .intro { margin-left: 70px; margin-top: 40px; margin-right: 70px; height: 400px; }
-.btn1 { width: 900px; margin: 0 auto; }
+.btn1 { width: 900px; margin: 0 auto; text-align: center;}
 .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
 border: 2px dotted #FF9898; }
 .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
@@ -85,13 +85,6 @@ border: 2px dotted #FF9898; }
                                <br><br>
                                <strong>[ 개점일 ]</strong> 2011-11-11
                                <br><br>
-                               <strong>[ 소개글 ]</strong><br>
-                               &nbsp;예전 마니산 부근의 강화섬 보리밥이 2013년1월13일 선원면 선행리에 상가를 신축하고 확장 개업하였습니다. 
-                               진달래 축제로 유명한 고려산과 혈구산을 끼고 있는 강화섬 보리밥은 강화터미널에서 차로 3분거리에 위치하며 
-                               주변건물로는 강화보건소-명진부페-충렬사-세광아파트-찬우물약수터-국화리저수지등이 위치하고 있습니다. 
-                               <br>&nbsp;보리와 감자 콩, 각종 야채가 어우러진 식단으로 손님들의 건강을 책임지겠습니다.
-                               강화섬보리밥은 향토특색음식전문점으로 인천,강화 맛집으로 인정되었으며 우수모범음식점이기도 합니다. 
-                               보리밥정식,메밀전병,감자전,도토리묵등이 있으며 강화섬정식과 닭볶음탕이 예약제로 준비하고 있습니다.
                            </p>
                        </div>
                        <div class="btn1">
