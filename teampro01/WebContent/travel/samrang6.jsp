@@ -35,6 +35,7 @@
     .btn1 #btn_img { width: 30px; height: 30px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
     .btn1 span { width: 20px; height: 20px; vertical-align: middle; font-weight: bold; font-size: 20px; }
     </style>
+    <title>삼랑성 축제</title> 
 </head>
    
 <body>
@@ -91,7 +92,7 @@
 		                            <img src="${path0 }/images/samrangsungfestival02.jpg" id="intro_img2">
 		                        </div>
 		                        <div class="intro">
-		                            <img src="${path0 }/images/logo.png" id="title_img">
+		                     
 		                            <h3 class="sub_title">《개최 안내》</h3>
 		                            <p><br><br>
 		                                【개최일시】  매년 10월초 <9일간><br><br>

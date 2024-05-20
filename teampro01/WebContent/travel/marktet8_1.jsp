@@ -35,7 +35,7 @@
     .btn1 #btn_img { width: 30px; height: 30px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
     .btn1 span { width: 20px; height: 20px; vertical-align: middle; font-weight: bold; font-size: 20px; }
     </style>
-</head>
+<title>풍물시장</title> 
    
 <body>
 <div id="hd">
@@ -57,13 +57,13 @@
                                         <li><a href="${path0}/travel/beach3.jsp" class="dp3">해변</a> </li>
                                         <li><a href="${path0}/travel/island4.jsp" class="dp3">섬</a> </li>
                                     </ul>
-                               	 <li><a href="${path0}/travel/jindallae5.jsp" class="dp2" style="background-color: #f3b8da;">축제</a></li>
+                               	 <li><a href="${path0}/travel/jindallae5.jsp" class="dp2" >축제</a></li>
                                     <ul class="sub2">
                                         <li><a href="${path0}/travel/jindallae5.jsp" class="dp3">고려산 진달래 축제</a> </li>
                                         <li><a href="${path0}/travel/samrang6.jsp" class="dp3">삼랑성 역사문화 축제</a> </li>
                                         <li><a href="${path0}/travel/saewoo7.jsp" class="dp3">강화새우젓 축제</a> </li>
                                         </ul>
-                                 <li><a href="${path0}/travel/farmersmarket8.jsp" class="dp2">체험여행</a></li>
+                                 <li><a href="${path0}/travel/farmersmarket8.jsp" class="dp2" style="background-color: #f3b8da;">체험여행</a></li>
                                     <ul class="sub2">
                                         <li><a href="${path0}/travel/farmersmarket8.jsp" class="dp3">시장여행</a> </li>
                                         <li><a href="${path0}/travel/nadeulgil9.jsp" class="dp3">강화 나들길</a> </li>
@@ -91,7 +91,7 @@
 		                            <img src="${path0 }/images/market02.jpg" id="intro_img2">
 		                        </div>
 		                        <div class="intro">
-		                            <img src="${path0 }/images/logo.png" id="title_img">
+		              
 		                            <h3 class="sub_title">《관광포인트》</h3>
 		                            <p><br>                               
 		                                【위치】 : 인천광역시 강화군 강화읍 중앙로 17-9<br>

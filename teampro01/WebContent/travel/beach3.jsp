@@ -30,6 +30,7 @@
     #img { width: 300px; height: 300px; position: absolute; z-index: 10; }
     #cover { width: 300px; height: 300px; position: absolute; display: none; z-index: 11; }
     </style>
+<title>해변</title> 
 </head>
    
 <body>
@@ -45,7 +46,7 @@
                             <li>
                                 <a class="dp1">강화여행</a>
                                 <ul class="sub">
-                                 <li><a href="${path0}/travel/history1.jsp" class="dp2">명소</a></li>
+                                 <li><a href="${path0}/travel/history1.jsp" class="dp2" style="background-color: #f3b8da;">명소</a></li>
                                      <ul class="sub2">
                                         <li><a href="${path0}/travel/history1.jsp" class="dp3">유적지</a> </li>
                                         <li><a href="${path0}/travel/temple2.jsp" class="dp3">사찰</a> </li>

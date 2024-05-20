@@ -35,6 +35,7 @@
     .btn1 #btn_img { width: 30px; height: 30px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
     .btn1 span { width: 20px; height: 20px; vertical-align: middle; font-weight: bold; font-size: 20px; }
     </style>
+<title>보문사</title> 
 </head>
    
 <body>
@@ -50,7 +51,7 @@
                             <li>
                                 <a class="dp1">강화여행</a>
                                 <ul class="sub">
-                                 <li><a href="${path0}/travel/history1.jsp" class="dp2">명소</a></li>
+                                 <li><a href="${path0}/travel/history1.jsp" class="dp2" style="background-color: #f3b8da;">명소</a></li>
                                      <ul class="sub2">
                                         <li><a href="${path0}/travel/history1.jsp" class="dp3">유적지</a> </li>
                                         <li><a href="${path0}/travel/temple2.jsp" class="dp3">사찰</a> </li>
@@ -91,7 +92,7 @@
 		                            <img src="${path0 }/images/bumunsa04.jpg"  alt="보문사02" id="intro_img2">
 		                        </div>
 		                        <div class="intro">
-		                            <img src="${path0 }/images/logo.png" id="title_img">
+		                  
 		                            <h3 class="sub_title">《관광포인트》</h3>
 		                            <p><br>
 		                                【문화재 구분】 : 전통사찰<br>

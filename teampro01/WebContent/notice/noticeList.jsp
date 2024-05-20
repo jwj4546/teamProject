@@ -8,55 +8,51 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>${title }</title>
+<title>공지사항</title>
 <%@ include file="/head.jsp" %>
 <script src="${path0 }/js/jquery.dataTables.js"></script>
 <link rel="stylesheet" href="${path0 }/css/jquery.dataTables.css" >
 <style>
-	.container { width:1400px }
-	.page { clear:both; }
-	#page1 { background-color:#c9dff2; min-height:150vh }
-	#page2 { background-color:#5d97f5 }
-	.page_title { font-size:36px; padding-top:2em; text-align:center; }
-	th.item1 { width:8% }
-	th.item2 { width:60% }
-	th.item3 { width:20% }
+table#tb1 { width: 88%; margin-left:70px; margin-right:70px; margin-top:50px; border:1px solid #cdcdcd; }
+thead.thead { background-color:#f3b8da; }
+.thead th.item1 { width: 10%; }
+.thead th.item2 { width: 60%; }
+.thead th.item3 { width: 20%; }
+.thead th.item4 { width: 10%; }
+
+#btn1 { margin-left:70px; background-color:#a77fb1; border-color:#a77fb1; }
 </style>
 </head>
 <body>
 <div id="header">
 	<%@ include file="/header.jsp" %>
 </div>
-<div id="contents">
-	<section class="page" id="page1">
-		<div style="width:1400px; margin:0 auto;">
-			<nav aria-label="breadcrumb d-flex justify-content-between">
-			  <ol class="breadcrumb">
-			    <li class="breadcrumb-item"><a href="/pro01">Home</a></li>
-			    <li class="breadcrumb-item"><a href="${hpath }/NoticeList.do">커뮤니티</a></li>
-			    <li class="breadcrumb-item active" aria-current="page">공지사항</li>
-			  </ol>
-			</nav>
-			<hr>
-			<div id="tab1">
-			<ul class="nav nav-tabs">
-			  <li class="nav-item">
-			    <a class="nav-link active" href="${path0 }/NoticeList.do">공지사항</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="${path0 }/GetQnaList.do">묻고 답하기</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="${path0 }/">자료실</a>
-			  </li>
-			</ul>
-			</div>
-			<hr>
-			<h3 class="page_title"><i class="fas fa-bullhorn"></i>&nbsp;&nbsp;공지사항</h3>
-			<hr>
-			<div>
+<main id="contents" class="clr-fix">
+        <div class="wrap clr-fix">
+            <div class="contents_wrap">
+                <aside id="left1">
+                    <nav id="lnb">
+                        <ul class="menu">
+                            <li>
+                                <a class="dp1">강화소통</a>
+                                <ul class="sub">
+                                    <li><a href="${path0 }/NoticeList.do" class="dp2" style="background-color: #f3b8da;">공지사항</a></li>
+                                    <li><a href="${path0 }/GetQnaList.do" class="dp2">건의사항</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+                <div class="contents">
+                    <div class="breadcrumb">
+                        <p>
+                            <a href="/teampro01">HOME</a><a href="${path0 }/NoticeList.do">강화소통</a><span style="color:deeppink">공지사항</span>
+                        </p>
+                    </div>
+                    <h2 class="title">공지사항</h2>
+                    <div>
 				<table class="table table-hover" id="tb1">
-					<thead class="thead-dark">
+					<thead class="thead">
 						<tr>
 							<th class="item1">번호</th>
 							<th class="item2">제목</th>
@@ -99,16 +95,17 @@
 					alert("로그인 후 이용이 가능합니다.");
 				}
 				</script>
-				<hr>
+				<br>
 				<c:if test="${sid.equals('admin') }">
 				<div class="btn-group">
-					<a href="${path0 }/notice/notice_ins.jsp" class="btn btn-primary">등록</a>
+					<a href="${path0 }/notice/notice_ins.jsp" class="btn btn-primary" id="btn1">등록</a>
 				</div>
 				</c:if>
 			</div>
-		</div>
-	</section>
-</div>
+                </div>
+            </div>
+        </div>
+    </main>
 <div id="footer">
 	<%@ include file="/footer.jsp" %>
 </div>

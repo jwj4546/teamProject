@@ -40,6 +40,7 @@
     .btn1 #btn_img { width: 30px; height: 30px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
     .btn1 span { width: 20px; height: 20px; vertical-align: middle; font-weight: bold; font-size: 20px; }
     </style>
+    <title>인삼센터</title> 
 </head>
    
 <body>
@@ -62,7 +63,7 @@
                                         <li><a href="${path0}/travel/beach3.jsp" class="dp3">해변</a> </li>
                                         <li><a href="${path0}/travel/island4.jsp" class="dp3">섬</a> </li>
                                     </ul>
-                               	 <li><a href="${path0}/travel/jindallae5.jsp" class="dp2" style="background-color: #f3b8da;">축제</a></li>
+                               	 <li><a href="${path0}/travel/jindallae5.jsp" class="dp2" >축제</a></li>
                                     <ul class="sub2">
                                         <li><a href="${path0}/travel/jindallae5.jsp" class="dp3">고려산 진달래 축제</a> </li>
                                         <li><a href="${path0}/travel/samrang6.jsp" class="dp3">삼랑성 역사문화 축제</a> </li>
@@ -70,7 +71,7 @@
                                         </ul>
                                  <li><a href="${path0}/travel/farmersmarket8.jsp" class="dp2">체험여행</a></li>
                                     <ul class="sub2">
-                                        <li><a href="${path0}/travel/farmersmarket8.jsp" class="dp3">시장여행</a> </li>
+                                        <li><a href="${path0}/travel/farmersmarket8.jsp" class="dp3" style="background-color: #f3b8da;">시장여행</a> </li>
                                         <li><a href="${path0}/travel/nadeulgil9.jsp" class="dp3">강화 나들길</a> </li>
                                         <li><a href="${path0}/travel/reports10.jsp" class="dp3">레포츠 여행</a> </li>
                                     </ul>
@@ -96,7 +97,7 @@
 		                            <img src="${path0 }/images/insam02.jpg" id="intro_img2">
 		                        </div>
 		                        <div class="intro">
-		                            <img src="${path0 }/images/logo.png" id="title_img">
+		                   
 		                            <h3 class="sub_title">《관광포인트》</h3>
 		                            <p><br>   
 		                                인삼은 우리나라의 대표적 약용식물로서 성장이 매우 느려 약리작용을 위해서는 4~6년간의 재배기간이 

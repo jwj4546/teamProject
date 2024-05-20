@@ -29,6 +29,7 @@
     #img { width: 300px; height: 300px; position: absolute; z-index: 10; }
     #cover { width: 300px; height: 300px; position: absolute; display: none; z-index: 11; }
     </style>
+    <title>섬 여행</title> 
 </head>
    
 <body>
@@ -44,14 +45,14 @@
                             <li>
                                 <a class="dp1">강화여행</a>
                                 <ul class="sub">
-                                 <li><a href="${path0}/travel/history1.jsp" class="dp2">명소</a></li>
+                                 <li><a href="${path0}/travel/history1.jsp" class="dp2" style="background-color: #f3b8da;">명소</a></li>
                                      <ul class="sub2">
                                         <li><a href="${path0}/travel/history1.jsp" class="dp3">유적지</a> </li>
                                         <li><a href="${path0}/travel/temple2.jsp" class="dp3">사찰</a> </li>
                                         <li><a href="${path0}/travel/beach3.jsp" class="dp3">해변</a> </li>
                                         <li><a href="${path0}/travel/island4.jsp" class="dp3">섬</a> </li>
                                     </ul>
-                               	 <li><a href="${path0}/travel/jindallae5.jsp" class="dp2" style="background-color: #f3b8da;">축제</a></li>
+                               	 <li><a href="${path0}/travel/jindallae5.jsp" class="dp2" >축제</a></li>
                                     <ul class="sub2">
                                         <li><a href="${path0}/travel/jindallae5.jsp" class="dp3">고려산 진달래 축제</a> </li>
                                         <li><a href="${path0}/travel/samrang6.jsp" class="dp3">삼랑성 역사문화 축제</a> </li>

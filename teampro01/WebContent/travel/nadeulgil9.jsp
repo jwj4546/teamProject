@@ -35,6 +35,7 @@
     .btn1 #btn_img { width: 30px; height: 30px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
     .btn1 span { width: 20px; height: 20px; vertical-align: middle; font-weight: bold; font-size: 20px; }
     </style>
+    <title>강화 나들길</title> 
 </head>
    
 <body>
@@ -91,7 +92,7 @@
 		                            <img src="${path0 }/images/nadeulgil01.png" id="intro_img2">
 		                        </div>
 		                        <div class="intro">
-		                            <img src="${path0 }/images/logo.png" id="title_img">
+		                 
 		                            <h3 class="sub_title">《관광포인트》</h3>
 		                            <p><br>
 		                                강화나들길은 선사시대의 고인돌, 고려시대의 왕릉과 건축물, 조선시대에는 외세 침략을 막아 

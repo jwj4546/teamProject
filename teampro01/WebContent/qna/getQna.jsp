@@ -10,34 +10,45 @@
 <title>${title }</title>
 <%@ include file="/head.jsp" %>
 <style>
-	.container { width:1400px }
-	.page { clear:both; height:100vh }
-	#page1 { background-color:#c9dff2 }
-	#page2 { background-color:#5d97f5 }
-	.page_title { font-size:36px; padding-top:2em; text-align:center; }
-	th.item1 { width:8% }
-	th.item2 { width:60% }
-	th.item3 { width:20% }
+#tb1 { width:88%; margin-left:70px; margin-top:50px; }
+th.item1 { width:8% }
+th.item2 { width:60% }
+th.item3 { width:20% }
+
+#btn1 { margin-left:70px; background-color:#a77fb1; border-color:#a77fb1; }
+#btn2 { background-color:#a77fb1; border-color:#a77fb1; }
+#btn4 { background-color:#d679b1; border-color:#d679b1; }
 </style>
 </head>
 <body>
 <div id="header">
 	<%@ include file="/header.jsp" %>
 </div>
-<div id="contents">
-	<section class="page" id="page1">
-		<div style="width:1400px; margin:0 auto;">
-			<nav aria-label="breadcrumb d-flex justify-content-between">
-			  <ol class="breadcrumb">
-			    <li class="breadcrumb-item"><a href="/pro01">Home</a></li>
-			    <li class="breadcrumb-item"><a href="${hpath }/GetQnaList.do">묻고 답하기</a></li>
-			    <li class="breadcrumb-item active" aria-current="page">질문 및 답변 상세보기</li>
-			  </ol>
-			</nav>
-			<h3 class="page_title"><i class="fas fa-book"></i>&nbsp;&nbsp;질문 및 답변 상세보기</h3>
-			<hr>
-			<div>
-				<table class="table table-striped">
+<main id="contents" class="clr-fix">
+        <div class="wrap clr-fix">
+            <div class="contents_wrap">
+                <aside id="left1">
+                    <nav id="lnb">
+                        <ul class="menu">
+                            <li>
+                                <a class="dp1">강화소통</a>
+                                <ul class="sub">
+                                    <li><a href="${path0 }/NoticeList.do" class="dp2" style="background-color: #f3b8da;">공지사항</a></li>
+                                    <li><a href="${path0 }/GetQnaList.do" class="dp2">건의사항</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+                <div class="contents">
+                    <div class="breadcrumb">
+                        <p>
+                            <a href="/teampro01">HOME</a><a href="${path0 }/NoticeList.do">강화소통</a><span style="color:deeppink">공지사항</span>
+                        </p>
+                    </div>
+                    <h2 class="title">건의사항 상세보기</h2>
+                    <div>
+				<table class="table table-striped" id="tb1">
 					<tbody>
 						<tr>
 							<th>번호</th>
@@ -61,14 +72,14 @@
 						</tr>
 					</tbody>
 				</table>
-				<hr>
-				<div class="button">
+				<br>
+				<div class="button" style="margin-left:70px;">
 				  <c:if test="${(not empty sid) and qna.plevel.equals('1') }">
-				  <a href="${path0 }/qna/insAns.jsp?parno=${qna.no }" class="btn btn-primary">답변 등록</a>
+				  <a href="${path0 }/qna/insAns.jsp?parno=${qna.no }" class="btn btn-primary" id="btn1">답변 등록</a>
 				  </c:if>
 				  <c:if test="${sid.equals(qna.aid)}">
 				  	<c:if test="${qna.plevel.equals('1') }">
-					<a href="${path0 }/EditQna.do?no=${qna.no }" class="btn btn-secondary">질문 수정</a>
+					<a href="${path0 }/EditQna.do?no=${qna.no }" class="btn btn-secondary" id="btn2">질문 수정</a>
 					</c:if>
 				  </c:if>
 				  <c:if test="${sid.equals(qna.aid) || sid.equals('admin')}">
@@ -76,11 +87,11 @@
 					<a href="${path0 }/DelQuestion.do?parno=${qna.no }" class="btn btn-danger" onclick="delQuestCheck()">질문 삭제</a>
 					</c:if>
 					<c:if test="${qna.plevel.equals('2') }">
-					<a href="${path0 }/EditQna.do?no=${qna.no }" class="btn btn-secondary">답변 수정</a>
+					<a href="${path0 }/EditQna.do?no=${qna.no }" class="btn btn-secondary" id="btn2">답변 수정</a>
 					<a href="${path0 }/DelAnswer.do?no=${qna.no }" class="btn btn-danger" onclick="delAnsCheck()">답변 삭제</a>
 					</c:if>
   				  </c:if>
-				  <a href="${path0 }/GetQnaList.do" class="btn btn-info">질문 및 답변 목록</a>
+				  <a href="${path0 }/GetQnaList.do" class="btn btn-info" id="btn4">질문 및 답변 목록</a>
 				</div>
 			</div>
 			<script>
@@ -91,14 +102,10 @@
 				alert("해당 답변이 삭제되었습니다.");
 			}
 			</script>
-		</div>
-	</section>
-	<section class="page" id="page2">
-		<div style="width:1400px; margin:0 auto;">
-			<h3 class="page_title"></h3>
-		</div>
-	</section>
-</div>
+			</div>
+            </div>
+         </div>
+    </main>
 <div id="footer">
 	<%@ include file="/footer.jsp" %>
 </div>
