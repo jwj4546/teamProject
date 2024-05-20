@@ -68,8 +68,9 @@ border-radius: 5px; background-color: #f3b8da; color: #000; font-size: 16px; cur
 .register-container .text-center { text-align: center; }
 
 td { font-weight: bold; }
-.del_btn { background-color: rgb(243, 115, 115); float: right; margin-top: 50px; }
-.del_btn:hover { background-color: rgb(245, 74, 74); }
+.del_btn { background-color: rgb(243, 115, 115); float: right; margin-top: 50px; width:100px; height:35px;
+text-align:center; line-height:35px; border-radius:10px; }
+.del_btn:hover { background-color: rgb(245, 74, 74);  }
 </style>
 </head>
 <body>

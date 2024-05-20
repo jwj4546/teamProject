@@ -19,7 +19,7 @@
 
 
     #contents { height: 1300px; }
-    .wrap .box li { margin-top:30px; margin-left: 70px; float: left; width: 300px; height: 300px; 
+    .wrap .box li { margin-top:30px; margin-left: 70px; float: left; width: 302px; height: 302px; 
     border: 1px solid #000; position: relative; }
     .wrap .box li:hover #cover { display: block; cursor: pointer; }
 

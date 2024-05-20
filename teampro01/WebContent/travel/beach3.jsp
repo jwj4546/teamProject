@@ -20,7 +20,7 @@
 
 
     #contents { height: 1300px; }
-    .wrap .box li { margin-top:30px; margin-left: 70px; float: left; width: 300px; height: 300px; 
+    .wrap .box li { margin-top:30px; margin-left: 70px; float: left; width: 302px; height: 302px; 
     border: 1px solid #000; position: relative; }
     .wrap .box li:hover #cover { display: block; cursor: pointer; }
 
@@ -53,7 +53,7 @@
                                         <li><a href="${path0}/travel/beach3.jsp" class="dp3">해변</a> </li>
                                         <li><a href="${path0}/travel/island4.jsp" class="dp3">섬</a> </li>
                                     </ul>
-                               	 <li><a href="${path0}/travel/jindallae5.jsp" class="dp2" style="background-color: #f3b8da;">축제</a></li>
+                               	 <li><a href="${path0}/travel/jindallae5.jsp" class="dp2">축제</a></li>
                                     <ul class="sub2">
                                         <li><a href="${path0}/travel/jindallae5.jsp" class="dp3">고려산 진달래 축제</a> </li>
                                         <li><a href="${path0}/travel/samrang6.jsp" class="dp3">삼랑성 역사문화 축제</a> </li>
