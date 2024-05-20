@@ -10,35 +10,43 @@
 <title>${title }</title>
 <%@ include file="/head.jsp" %>
 <style>
-	.container { width:1400px }
-	.page { clear:both; height:100vh }
-	#page1 { background-color:#c9dff2 }
-	#page2 { background-color:#5d97f5 }
-	.page_title { font-size:36px; padding-top:2em; text-align:center; }
-	th.item1 { width:8% }
-	th.item2 { width:60% }
-	th.item3 { width:20% }
+th.item1 { width:8% }
+th.item2 { width:60% }
+th.item3 { width:20% }
+table#tb1 { width: 88%; margin-left:70px; margin-right:70px; margin-top:50px; border:1px solid #cdcdcd; }
+#btn1 { margin-left:70px; background-color:#a77fb1; border-color:#a77fb1; }
 </style>
 </head>
 <body>
 <div id="header">
 	<%@ include file="/header.jsp" %>
 </div>
-<div id="contents">
-	<section class="page" id="page1">
-		<div style="width:1400px; margin:0 auto;">
-			<nav aria-label="breadcrumb d-flex justify-content-between">
-			  <ol class="breadcrumb">
-			    <li class="breadcrumb-item"><a href="/pro01">Home</a></li>
-			    <li class="breadcrumb-item"><a href="${hpath }/GetQnaList.do">묻고 답하기</a></li>
-			    <li class="breadcrumb-item active" aria-current="page">질문 등록</li>
-			  </ol>
-			</nav>
-			<hr>
-			<h3 class="page_title"><i class="fas fa-comment-dots"></i>&nbsp;&nbsp;질문 등록</h3>
-			<hr>
-			<form action="${path0 }/QuestionIns.do" method="post">
-				<table class="table table-striped">
+<main id="contents" class="clr-fix">
+        <div class="wrap clr-fix">
+            <div class="contents_wrap">
+                <aside id="left1">
+                    <nav id="lnb">
+                        <ul class="menu">
+                            <li>
+                                <a class="dp1">강화소통</a>
+                                <ul class="sub">
+                                    <li><a href="${path0 }/NoticeList.do" class="dp2" style="background-color: #f3b8da;">공지사항</a></li>
+                                    <li><a href="${path0 }/GetQnaList.do" class="dp2">건의사항</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+                <div class="contents">
+                    <div class="breadcrumb">
+                        <p>
+                            <a href="/teampro01">HOME</a><a href="${path0 }/NoticeList.do">강화소통</a><span style="color:deeppink">공지사항</span>
+                        </p>
+                    </div>
+                    <h2 class="title">질문 등록</h2>
+                    <div>
+				<form action="${path0 }/QuestionIns.do" method="post">
+				<table class="table table-striped" id="tb1">
 					<tbody>
 						<tr>
 							<th><label for="title">제목</label></th>
@@ -54,9 +62,9 @@
 						</tr>
 					</tbody>
 				</table>
-				<hr>
+				<br>
 				<div class="button">
-				  <button type="submit" class="btn btn-primary" onclick="insQuestCheck()">질문 등록</button>
+				  <button type="submit" class="btn btn-primary" onclick="insQuestCheck()" id="btn1">질문 등록</button>
 				  <a href="${path0 }/GetQnaList.do" class="btn btn-danger">취소</a>
 				</div>
 			</form>
@@ -65,9 +73,11 @@
 				alert("질문이 등록되었습니다.");
 			}
 			</script>
-		</div>
-	</section>
-</div>
+			</div>
+                </div>
+            </div>
+        </div>
+    </main>
 <div id="footer">
 	<%@ include file="/footer.jsp" %>
 </div>

@@ -35,6 +35,7 @@
     .btn1 #btn_img { width: 30px; height: 30px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
     .btn1 span { width: 20px; height: 20px; vertical-align: middle; font-weight: bold; font-size: 20px; }
     </style>
+    <title>주문도</title> 
 </head>
    
 <body>
@@ -50,14 +51,14 @@
                             <li>
                                 <a class="dp1">강화여행</a>
                                 <ul class="sub">
-                                 <li><a href="${path0}/travel/history1.jsp" class="dp2">명소</a></li>
+                                 <li><a href="${path0}/travel/history1.jsp" class="dp2" style="background-color: #f3b8da;">명소</a></li>
                                      <ul class="sub2">
                                         <li><a href="${path0}/travel/history1.jsp" class="dp3">유적지</a> </li>
                                         <li><a href="${path0}/travel/temple2.jsp" class="dp3">사찰</a> </li>
                                         <li><a href="${path0}/travel/beach3.jsp" class="dp3">해변</a> </li>
                                         <li><a href="${path0}/travel/island4.jsp" class="dp3">섬</a> </li>
                                     </ul>
-                               	 <li><a href="${path0}/travel/jindallae5.jsp" class="dp2" style="background-color: #f3b8da;">축제</a></li>
+                               	 <li><a href="${path0}/travel/jindallae5.jsp" class="dp2" >축제</a></li>
                                     <ul class="sub2">
                                         <li><a href="${path0}/travel/jindallae5.jsp" class="dp3">고려산 진달래 축제</a> </li>
                                         <li><a href="${path0}/travel/samrang6.jsp" class="dp3">삼랑성 역사문화 축제</a> </li>
@@ -91,26 +92,15 @@
 		                            <img src="${path0 }/images/jumundo02.jpg" id="intro_img2">
 		                        </div>
 		                        <div class="intro">
-		                            <img src="${path0 }/images/logo.png" id="title_img">
+		     
 		                            <h3 class="sub_title">《관광포인트》</h3>
 		                            <p><br>
 		                                *뒷장술해변 : 5월엔 해당화, 10월엔 기러기와 야생오리관찰 가능, 상합 등 조개캐기 체험<br>
-		                                (민박집 경운기 사전신청 후 이용)<br>
 		                                *영뜰해변 : 볼음도에서 가장 큰 해변으로 전망대 앞 망원경으로 저어새 관찰 가능<br>
-		                                *볼음도 저어새생태마을 : 볼음도 중심에 위치한 게스트하우스로 숙박과 체험 제공<br>
 		                                *불음도길 : 13.6km, 3시간 30분 소요<br>
 		                                (볼음도 선착장-물엄곶-조개골해변-영뜰해변-서도은행나무-봉화산-당아래 마을-볼음도 선착장)<br><br>
-		
-		
-		                                【가는 방법】<br>
-		                                *버스 : 강화버스터미널-18번 군내버스 이용 <br>
-		                                *자가운전 : 강화대교-48국도 인화리에서 교동대교 이용(40분 소요)<br><br>
-		                             
-		                                【관련업체 문의전화】<br>
-		                                삼보해운(주문도) : 032-932-6619 http://www.kangwha-sambo.co.kr/<br>
-		                                민박 : 강화군 홈페이지 숙박정보 참고<br>
-		
-		                                자세한 사항은 관련 페이지 참조 부탁드립니다<br><br>
+				
+		                                자세한 사항은 관련 페이지 참조 부탁드립니다<br>
                                 <ul>
                                     <li><a href="https://www.ganghwa.go.kr/open_content/tour/around/jumundo.jsp" target="_blank">
                                         https://www.ganghwa.go.kr/open_content/tour/around/jumundo.jsp<br></a></li>

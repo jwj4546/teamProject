@@ -85,7 +85,7 @@ td { font-weight: bold; }
                             <li>
                                 <a class="dp1">강화소통</a>
                                 <ul class="sub">
-                                    <li><a href="${path0 }/member/memberInfo.jsp" class="dp2" style="background-color: #f3b8da;">마이페이지</a></li>
+                                    <li><a href="${path0}/EditMember.do?id=${sid}" class="dp2" style="background-color: #f3b8da;">마이페이지</a></li>
                                     <li><a href="${path0 }/member/term.jsp" class="dp2">회원약관</a></li>
                                     <li><a href="${path0 }/member/policy.jsp" class="dp2">개인정보처리방침</a></li>
                                 </ul>
@@ -96,7 +96,7 @@ td { font-weight: bold; }
                 <div class="contents">
                     <div class="breadcrumb">
                         <p>
-                            <a href="/teampro01">HOME</a><a href="${path0 }/member/memberInfo.jsp">마이페이지</a><span style="color:deeppink">회원정보수정</span>
+                            <a href="/teampro01">HOME</a><a href="${path0}/EditMember.do?id=${sid}">마이페이지</a><span style="color:deeppink">회원정보수정</span>
                         </p>
                     </div>
                     <h2 class="title">회원정보</h2>

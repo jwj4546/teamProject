@@ -29,6 +29,7 @@
     #img { width: 300px; height: 300px; position: absolute; z-index: 10; }
     #cover { width: 300px; height: 300px; position: absolute; display: none; z-index: 11; }
     </style>
+    <title>레포츠 여행</title> 
 </head>
    
 <body>
@@ -57,7 +58,7 @@
                                         <li><a href="${path0}/travel/samrang6.jsp" class="dp3">삼랑성 역사문화 축제</a> </li>
                                         <li><a href="${path0}/travel/saewoo7.jsp" class="dp3">강화새우젓 축제</a> </li>
                                         </ul>
-                                 <li><a href="${path0}/travel/farmersmarket8.jsp" class="dp2">체험여행</a></li>
+                                 <li><a href="${path0}/travel/farmersmarket8.jsp" class="dp2" style="background-color: #f3b8da;">체험여행</a></li>
                                     <ul class="sub2">
                                         <li><a href="${path0}/travel/farmersmarket8.jsp" class="dp3">시장여행</a> </li>
                                         <li><a href="${path0}/travel/nadeulgil9.jsp" class="dp3">강화 나들길</a> </li>

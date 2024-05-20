@@ -101,7 +101,7 @@ font-size: 18px;
 .empty_box {width: 1920px; height: 30px; background-color: pink; position: absolute; top: 60px; right: -260px;}
 .sub_title { position: absolute; text-align: center; top: 150px; font-size: 24px;}
 .sub_title ul {list-style: none;}
-.sub_title ul li {float: left; width: 170px; margin-left: 92px;}
+.sub_title ul li {float: left; width: 140px; margin-left: 117px;}
 #tab1 {  position:relative; width: 1400px; height: 600px; 
    clear:both; margin: 10px auto;}
 #tab1 li label { position:absolute; top:10px; z-index:20;
@@ -116,7 +116,7 @@ font-size: 18px;
 #tab1 li .tab_ra:checked + label { background-color: #fff; }
 .item1 {text-align: center;}
 .tab_btn img { width: 80px; height: 80px; margin-top: 20px;}
-.tab_img { width: 350px; height: 450px; border: 2px solid #000; display: inline-block; margin-left: 84.5px; float: left; box-shadow: 5px 5px 5px 5px gray; position: relative;}
+.tab_img { width: 350px; height: 450px; border: 2px solid #000; display: inline-block; margin-left: 84.5px; float: left; box-shadow: 5px 5px 5px 5px gray; position: relative; top:50px;}
 .tab_con { display:none; position:absolute; top:200px; width: 100%; text-align: center; }
 .tab_con img { width: 300px; height: 300px; padding-top: 20px; }
 .tab_ra { display:none; }
@@ -192,8 +192,8 @@ font-size: 18px;
 				        <li><a href="${path0}/admin/index.jsp">시스템관리자</a></li>
 					    </c:if>
 					</c:if>
-					<li><a href="${path0 }/notice/noticeList.jsp">공지사항</a></li>
-					<li><a href="${path0 }/qna/qnaList.jsp">건의사항</a></li>
+					<li><a href="${path0 }/NoticeList.do">공지사항</a></li>
+					<li><a href="${path0 }/GetQnaList.do">건의사항</a></li>
 				</ul>
 			</div>
 		</div>
@@ -225,7 +225,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">나들길1</p>
+								<p style="position:absolute; bottom:30px; left:150px;">강화나들길</p>
 							</div>
 						</div>
 						<div class="tab_img">
@@ -235,7 +235,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">나들길2</p>
+								<p style="position:absolute; bottom:30px; left:150px;">강화나들길</p>
 						</div>
 					</div>
 					<div class="tab_img">
@@ -245,7 +245,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">나들길3</p>
+								<p style="position:absolute; bottom:30px; left:150px;">강화나들길</p>
 						</div>
 					</div>
 				</div>
@@ -261,7 +261,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">역사문화1</p>
+								<p style="position:absolute; bottom:30px; left:150px;">보문사</p>
 							</div>
 						</div>
 						<div class="tab_img">
@@ -271,7 +271,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">역사문화2</p>
+								<p style="position:absolute; bottom:30px; left:150px;">사찰</p>
 							</div>
 						</div>
 						<div class="tab_img">
@@ -281,7 +281,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">역사문화3</p>
+								<p style="position:absolute; bottom:30px; left:150px;">황룡조각상</p>
 							</div>
 						</div>
 					</div>
@@ -297,7 +297,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">체험1</p>
+								<p style="position:absolute; bottom:30px; left:150px;">카트라이더</p>
 							</div>
 						</div><div class="tab_img">
 							<img src="${path0 }/images/repoex02.jpg" alt="탭이미지" >
@@ -306,7 +306,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">체험2</p>
+								<p style="position:absolute; bottom:30px; left:150px;">강화리조트</p>
 							</div>
 						</div><div class="tab_img">
 							<img src="${path0 }/images/repoex03.jpg" alt="탭이미지" >
@@ -315,7 +315,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">체험3</p>
+								<p style="position:absolute; bottom:30px; left:150px;">모노레일</p>
 							</div>
 						</div>
 					</div>
@@ -331,7 +331,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">섬1</p>
+								<p style="position:absolute; bottom:30px; left:150px;">포토존</p>
 							</div>
 						</div>
 						<div class="tab_img">
@@ -341,7 +341,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">섬2</p>
+								<p style="position:absolute; bottom:30px; left:150px;">다리</p>
 							</div>
 						</div>
 						<div class="tab_img">
@@ -351,7 +351,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">섬3</p>
+								<p style="position:absolute; bottom:30px; left:150px;">섬 특산물</p>
 							</div>
 						</div>
 					</div>
@@ -367,7 +367,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">산1</p>
+								<p style="position:absolute; bottom:30px; left:150px;">상봉산</p>
 							</div>
 						</div>
 						<div class="tab_img">
@@ -377,7 +377,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">산2</p>
+								<p style="position:absolute; bottom:30px; left:150px;">마니산</p>
 							</div>
 						</div>
 						<div class="tab_img">
@@ -387,7 +387,7 @@ font-size: 18px;
 								<img src="${path0 }/images/balloon.png" alt="말풍선" class="balloon">
 								<img src="${path0 }/images/paper.png" alt="종이비행기" class="paper">
 								<img src="${path0 }/images/mark.png" alt="즐겨찾기" class="mark">
-								<p style="position:absolute; bottom:30px; left:150px;">산3</p>
+								<p style="position:absolute; bottom:30px; left:150px;">고려산</p>
 							</div>
 						</div>
 					</div>

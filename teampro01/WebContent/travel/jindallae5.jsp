@@ -28,13 +28,14 @@
 
 
     .btn1 { width: 900px; margin: 0 auto; }
-    .btn1 button { margin-left: 70px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
+    .btn1 button { margin-left: 160px; margin-top: 40px; width: 200px; height: 70px; cursor: pointer; background-color: #F3B8DA; 
     border: 2px dotted #FF9898; }
     .btn1 button:hover { background-color: #FF9898; border: 2px solid deeppink; }
     .btn1 #map_img { width: 50px; height: 50px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
     .btn1 #btn_img { width: 30px; height: 30px; line-height: 50px; vertical-align: middle; margin-right: 10px; }
     .btn1 span { width: 20px; height: 20px; vertical-align: middle; font-weight: bold; font-size: 20px; }
     </style>
+    <title>진달래 축제</title> 
 </head>
    
 <body>
@@ -49,7 +50,7 @@
                         <ul class="menu">
                             <li>
                                 <a class="dp1">강화여행</a>
-                                <ul class="sub2">
+                                <ul class="sub">
                                  <li><a href="${path0}/travel/history1.jsp" class="dp2">명소</a></li>
                                      <ul class="sub2">
                                         <li><a href="${path0}/travel/history1.jsp" class="dp3">유적지</a> </li>
@@ -57,13 +58,13 @@
                                         <li><a href="${path0}/travel/beach3.jsp" class="dp3">해변</a> </li>
                                         <li><a href="${path0}/travel/island4.jsp" class="dp3">섬</a> </li>
                                     </ul>
-                               	 <li><a href="${path0}/travel/jindallae5.jsp" class="dp2" style="background-color: #f3b8da;">축제</a></li>
+                               	 <li><a href="${path0}/travel/jindallae.jsp" class="dp2" style="background-color: #f3b8da;">축제</a></li>
                                     <ul class="sub2">
                                         <li><a href="${path0}/travel/jindallae5.jsp" class="dp3">고려산 진달래 축제</a> </li>
                                         <li><a href="${path0}/travel/samrang6.jsp" class="dp3">삼랑성 역사문화 축제</a> </li>
                                         <li><a href="${path0}/travel/saewoo7.jsp" class="dp3">강화새우젓 축제</a> </li>
                                         </ul>
-                                 <li><a href="${path0}/travel/farmersmarket8.jsp" class="dp2">체험여행</a></li>
+                                 <li><a href="farmersmarket.jsp" class="dp2">체험여행</a></li>
                                     <ul class="sub2">
                                         <li><a href="${path0}/travel/farmersmarket8.jsp" class="dp3">시장여행</a> </li>
                                         <li><a href="${path0}/travel/nadeulgil9.jsp" class="dp3">강화 나들길</a> </li>
@@ -91,7 +92,7 @@
 		                            <img src="${path0 }/images/jindallaefestival03.jpg" id="intro_img2">
 		                        </div>
 		                        <div class="intro">
-		                            <img src="${path0 }/images/logo.png" id="title_img">
+		             
 		                            <h3 class="sub_title">《개최 안내》</h3>
 		                            <p><br><br>
 		                                【개최일시】 2024. 4. 6.(토) ~ 4. 14.(일) <9일간><br>

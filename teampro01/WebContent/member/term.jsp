@@ -63,7 +63,7 @@ margin-left: 70px; margin-top: 30px;
                             <li>
                                 <a class="dp1">강화소통</a>
                                 <ul class="sub">
-                                    <li><a href="${path0 }/member/memberInfo.jsp" class="dp2">마이페이지</a></li>
+                                    <li><a href="${path0}/EditMember.do?id=${sid}" class="dp2">마이페이지</a></li>
                                     <li><a href="${path0 }/member/term.jsp" class="dp2" style="background-color: #f3b8da;">회원약관</a></li>
                                     <li><a href="${path0 }/member/policy.jsp" class="dp2">개인정보처리방침</a></li>
                                 </ul>

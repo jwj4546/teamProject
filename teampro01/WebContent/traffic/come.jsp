@@ -56,9 +56,9 @@
                             <li>
                                 <a class="dp1">강화정보</a>
                                 <ul class="sub">
-                                    <li><a href="" class="dp2">교통정보</a></li>
-                                    <li><a href="" class="dp2">공영주차장</a></li>
-                                    <li><a href="" class="dp2" style="background-color: #f3b8da;">오시는 길</a></li>
+                                    <li><a href="${path0 }/traffic/traffic.jsp" class="dp2">교통정보</a></li>
+                                    <li><a href="${path0 }/traffic/parking.jsp" class="dp2">공영주차장</a></li>
+                                    <li><a href="${path0 }/traffic/come.jsp" class="dp2" style="background-color: #f3b8da;">오시는 길</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -70,9 +70,9 @@
                             <a href="teampro01">HOME</a><a href="${path0 }/traffic/traffic.jsp">강화정보</a><span style="color:deeppink">오시는 길</span>
                         </p>
                     </div>
-                    <h2 class="title">우리나라에서 본 강화</h2>
+                    <h2 class="title">우리나라에서 본 강화</h2><br>
                     <img src="${path0 }/images/place.gif" alt="place" style="margin-left: 200px;"><br><br>
-                	<h2 class="title">오시는 길</h2>
+                	<h2 class="title">오시는 길</h2><br>
                 	<img src="${path0 }/images/location.gif" alt="location" style="margin-left: 200px;">
                 </div>
             </div>
