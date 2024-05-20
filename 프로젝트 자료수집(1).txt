@@ -1,7 +1,0 @@
-
-일반현황/행정구역	영화관		명소			음식점		교통정보		공지사항
-(section.jsp)		(movie.jsp)		(place.jsp)		(food.jsp)		(traffic.jsp)		(notice.jsp)
-유래와 연혁		박물관/전시관	축제			숙박시설		공영 주차장	건의사항
-(history.jsp)			(museum.jsp)	(festival.jsp)		(hotel.jsp)		(parking.jsp)	(qna.jsp)
-특산물/특산품					체험여행		쇼핑			오시는 길
-(special.jsp)						(exp.jsp)		(shop.jsp)		(come.jsp)
