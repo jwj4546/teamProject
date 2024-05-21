@@ -96,6 +96,7 @@ public class MemberDAO {
 		return cnt;
 	}
 	
+	
 	public int editMember(Member member) {
 		int cnt = 0;
 		

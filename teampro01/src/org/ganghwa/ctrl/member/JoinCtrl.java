@@ -23,7 +23,7 @@ public class JoinCtrl extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 
 		
-		request.setAttribute("msg", "<strong>회원가입이 필요합니다.</strong>");
+		request.setAttribute("msg", "<strong>회원정보를 입력하고, 아이디 중복검사를 진행해주시기 바랍니다.</strong>");
 		RequestDispatcher view = request.getRequestDispatcher("/member/join.jsp");
 		view.forward(request, response);
 	}
