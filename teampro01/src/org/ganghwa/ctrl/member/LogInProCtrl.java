@@ -45,13 +45,13 @@ public class LogInProCtrl extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		RequestDispatcher view;
 		
-//		String key = "%02x";
-//		
-//		try {
-//			member.setPw(AES256.decryptAES256(member.getPw(), key));
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		} 
+		String key = "%02x";
+		
+		try {
+			member.setPw(AES256.decryptAES256(member.getPw(), key));
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
 		
 		if(id.equals(member.getId()) && pw.equals(member.getPw())) {
 			session.setAttribute("sid", member.getId());
