@@ -15,7 +15,7 @@ th.item1 { width:8% }
 th.item2 { width:60% }
 th.item3 { width:20% }
 
-#btn1 { margin-left:70px; background-color:#a77fb1; border-color:#a77fb1; }
+#btn1 { background-color:#a77fb1; border-color:#a77fb1; }
 #btn2 { background-color:#a77fb1; border-color:#a77fb1; }
 #btn4 { background-color:#d679b1; border-color:#d679b1; }
 </style>
