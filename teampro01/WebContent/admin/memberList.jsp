@@ -9,6 +9,13 @@
 <head>
 <meta charset="UTF-8">
 <%@ include file="/head.jsp" %>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+<!-- DataTables JS -->
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
 <style>
 #contents { height: 1300px; }
 .wrap .box li { margin-top:30px; margin-left: 70px; float: left; width: 300px; height: 300px; 
@@ -20,12 +27,13 @@ font-weight: bold; font-size: 17px; background-color: #eccfe9; }
 
 #img { width: 300px; height: 300px; position: absolute; z-index: 10; }
 #cover { width: 300px; height: 300px; position: absolute; display: none; z-index: 11; }
-th.item1 { width:5%; }
-th.item2 { width:15%; }
-th.item3 { width:15%; }
-th.item4 { width:15%; }
+th.item1 { width:10%; }
+th.item2 { width:10%; }
+th.item3 { width:25%; }
+th.item4 { width:10%; }
 th.item5 { width:10%; }
 th.item6 { width:20%; }
+th.item7 { width:15%; }
 </style>
 <title>회원관리</title>
 
@@ -43,8 +51,10 @@ font-weight: bold; font-size: 17px; background-color: #eccfe9; }
 #img { width: 200px; height: 200px; position: absolute; z-index: 10; margin-left: 50px; margin-top: 75px; }
 #cover { width: 300px; height: 300px; position: absolute; display: none; z-index: 11; }
 
-table#tb1 { width: 88%; margin-left:70px; margin-right:70px; margin-top:50px; border:1px solid #cdcdcd; }
+table#tb1 { border:1px solid #cdcdcd; }
 thead.thead { background-color:#f3b8da; }
+
+#tb1_wrapper { width: 88%;margin-left:70px; margin-right:70px; margin-top:50px; }
 </style>
 </head>
 <body>

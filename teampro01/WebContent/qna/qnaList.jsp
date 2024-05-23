@@ -10,15 +10,21 @@
 <meta charset="UTF-8">
 <title>건의사항</title>
 <%@ include file="/head.jsp" %>
-<script src="${path0 }/js/jquery.dataTables.js"></script>
-<link rel="stylesheet" href="${path0 }/css/jquery.dataTables.css" >
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+<!-- DataTables JS -->
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 <style>
-table#tb1 { width: 88%; margin-left:70px; margin-right:70px; margin-top:50px; border:1px solid #cdcdcd; }
+table#tb1 { border:1px solid #cdcdcd; }
 thead.thead { background-color:#f3b8da; }
 th.item1 { width:8% }
 th.item2 { width:50% }
 th.item3 { width:20% }
 th.item4 { width:10% }
+
+#tb1_wrapper { width: 88%;margin-left:70px; margin-right:70px; margin-top:50px; }
 #btn1 { margin-left:70px; background-color:#a77fb1; border-color:#a77fb1; }
 </style>
 </head>
