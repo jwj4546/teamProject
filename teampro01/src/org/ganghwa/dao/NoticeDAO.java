@@ -13,10 +13,10 @@ public class NoticeDAO {
 	public List<Notice> getNoticeList() {
 		List<Notice> noticeList = new ArrayList<>();
 		
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
+			con = mariadb.connect();
 			pstmt = con.prepareStatement(SqlLang.SELECT_ALL_NOTICE);
 			rs = pstmt.executeQuery();
 			
@@ -31,7 +31,7 @@ public class NoticeDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt, rs);
+			mariadb.close(con, pstmt, rs);
 		}
 		return noticeList;
 	}
@@ -39,10 +39,10 @@ public class NoticeDAO {
 	public Notice getNotice(int no) {
 		Notice notice = new Notice();
 		
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
+			con = mariadb.connect();
 			
 			pstmt = con.prepareStatement(SqlLang.UPDATE_NOTICE_VISITED);
 			pstmt.setInt(1, no);
@@ -64,7 +64,7 @@ public class NoticeDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt, rs);
+			mariadb.close(con, pstmt, rs);
 		}
 		
 		return notice;
@@ -73,18 +73,18 @@ public class NoticeDAO {
 	public int insNotice(Notice notice) {
 		int cnt = 0;
 		
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
-			pstmt = con.prepareStatement(MySQLDB.INSERT_NOTICE);
+			con = mariadb.connect();
+			pstmt = con.prepareStatement(MariaDB.INSERT_NOTICE);
 			pstmt.setString(1, notice.getTitle());
 			pstmt.setString(2, notice.getContent());
 			cnt = pstmt.executeUpdate();
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt);
+			mariadb.close(con, pstmt);
 		}
 		return cnt;
 	}
@@ -92,10 +92,10 @@ public class NoticeDAO {
 	public int editNotice(Notice notice) {
 		int cnt = 0;
 		
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
+			con = mariadb.connect();
 			pstmt = con.prepareStatement(SqlLang.UPDATE_NOTICE);
 			pstmt.setString(1, notice.getTitle());
 			pstmt.setString(2, notice.getContent());
@@ -104,7 +104,7 @@ public class NoticeDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt);
+			mariadb.close(con, pstmt);
 		}
 		return cnt;
 	}
@@ -112,17 +112,17 @@ public class NoticeDAO {
 	public int delNotice(int no) {
 		int cnt = 0;
 		
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
+			con = mariadb.connect();
 			pstmt = con.prepareStatement(SqlLang.DELETE_NOTICE);
 			pstmt.setInt(1, no);
 			cnt = pstmt.executeUpdate();
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt);
+			mariadb.close(con, pstmt);
 		}
 		return cnt;
 	}
@@ -130,10 +130,10 @@ public class NoticeDAO {
 	public Notice getNotice2(int no) {
 		Notice notice = new Notice();
 		
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
+			con = mariadb.connect();
 			pstmt = con.prepareStatement(SqlLang.SELECT_NOTICE_BYNO);
 			pstmt.setInt(1, no);
 			rs = pstmt.executeQuery();
@@ -148,7 +148,7 @@ public class NoticeDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt, rs);
+			mariadb.close(con, pstmt, rs);
 		}
 		
 		return notice;
@@ -157,11 +157,11 @@ public class NoticeDAO {
 	public List<Notice> getLatestNoticeList() {
 		List<Notice> latestNoticeList = new ArrayList<>();
 		
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
-			pstmt = con.prepareStatement(MySQLDB.LATEST_NOTICE);
+			con = mariadb.connect();
+			pstmt = con.prepareStatement(MariaDB.LATEST_NOTICE);
 			rs = pstmt.executeQuery();
 			while(rs.next()) {
 				Notice notice = new Notice(rs.getInt("no"),
@@ -174,7 +174,7 @@ public class NoticeDAO {
 		} catch(Exception e){
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt, rs);
+			mariadb.close(con, pstmt, rs);
 		}
 		return latestNoticeList;
 	}

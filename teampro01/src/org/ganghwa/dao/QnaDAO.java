@@ -16,10 +16,10 @@ public class QnaDAO {
 	public List<Qna> getQnaList(){
 		List<Qna> qnaList = new ArrayList<>();
 		
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
+			con = mariadb.connect();
 			pstmt = con.prepareStatement(SqlLang.SELECT_ALL_QNA);
 			rs = pstmt.executeQuery();
 			while(rs.next()) {
@@ -36,7 +36,7 @@ public class QnaDAO {
 		} catch(Exception e){
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt, rs);
+			mariadb.close(con, pstmt, rs);
 		}
 		return qnaList;
 	}
@@ -44,10 +44,10 @@ public class QnaDAO {
 	public Qna getQna(int no) {
 		Qna qna = new Qna();
 		
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
+			con = mariadb.connect();
 			pstmt = con.prepareStatement(SqlLang.UPDATE_QNA_VISITED);
 			pstmt.setInt(1, no);
 			pstmt.executeUpdate();
@@ -69,41 +69,41 @@ public class QnaDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt, rs);
+			mariadb.close(con, pstmt, rs);
 		}
 		return qna;
 	}
 	
 	public int insQuestion(Qna qna) {
 		int cnt = 0;
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
-			pstmt = con.prepareStatement(MySQLDB.INSERT_QUESTION);
+			con = mariadb.connect();
+			pstmt = con.prepareStatement(MariaDB.INSERT_QUESTION);
 			pstmt.setString(1, qna.getTitle());
 			pstmt.setString(2, qna.getContent());
 			pstmt.setString(3, qna.getAid());
 			cnt = pstmt.executeUpdate();
 			
 			pstmt = null;
-			pstmt = con.prepareStatement(MySQLDB.UPDATE_QUESTION_BYPARNO);
+			pstmt = con.prepareStatement(MariaDB.UPDATE_QUESTION_BYPARNO);
 			cnt = cnt + pstmt.executeUpdate();
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt);
+			mariadb.close(con, pstmt);
 		}
 		return cnt;
 	}
 	
 	public int insAnswer(Qna qna) {
 		int cnt = 0;
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
-			pstmt = con.prepareStatement(MySQLDB.INS_ANSWER);
+			con = mariadb.connect();
+			pstmt = con.prepareStatement(MariaDB.INS_ANSWER);
 			pstmt.setInt(1, qna.getParno());
 			pstmt.setString(2, qna.getTitle());
 			pstmt.setString(3, qna.getContent());
@@ -112,17 +112,17 @@ public class QnaDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt);
+			mariadb.close(con, pstmt);
 		}
 		return cnt;
 	}
 	
 	public int editProQna(Qna qna) {
 		int cnt = 0;
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
+			con = mariadb.connect();
 			pstmt = con.prepareStatement(SqlLang.UPDATE_QNA);
 			pstmt.setString(1, qna.getTitle());
 			pstmt.setString(2, qna.getContent());
@@ -131,51 +131,51 @@ public class QnaDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt);
+			mariadb.close(con, pstmt);
 		}
 		return cnt;
 	}
 	
 	public int delQuestion(int parno){
 		int cnt = 0;
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
+			con = mariadb.connect();
 			pstmt = con.prepareStatement(SqlLang.DELETE_QUESTION);
 			pstmt.setInt(1, parno);
 			cnt = pstmt.executeUpdate();
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt);
+			mariadb.close(con, pstmt);
 		}
 		return cnt;
 	}
 	
 	public int delAnswer(int no){
 		int cnt = 0;
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
+			con = mariadb.connect();
 			pstmt = con.prepareStatement(SqlLang.DELETE_ANSWER);
 			pstmt.setInt(1, no);
 			cnt = pstmt.executeUpdate();
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt);
+			mariadb.close(con, pstmt);
 		}
 		return cnt;
 	}
 	
 	public Qna getQna2(int no) {
 		Qna qna = new Qna();
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		
 		try {
-			con = mysql.connect();
+			con = mariadb.connect();
 			pstmt = null;
 			pstmt = con.prepareStatement(SqlLang.SELECT_QNA_BYNO);
 			pstmt.setInt(1, no);
@@ -193,17 +193,17 @@ public class QnaDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt, rs);
+			mariadb.close(con, pstmt, rs);
 		}
 		return qna;
 	}
 
 	public List<Qna> LatestgetQnaList() {
 		List<Qna> latestQnaList = new ArrayList<>();
-		MySQLDB mysql = new MySQLDB();
+		MariaDB mariadb = new MariaDB();
 		try {
-			con = mysql.connect();
-			pstmt = con.prepareStatement(MySQLDB.LATEST_QNA);
+			con = mariadb.connect();
+			pstmt = con.prepareStatement(MariaDB.LATEST_QNA);
 			rs = pstmt.executeQuery();
 			while(rs.next()) {
 				Qna qna = new Qna(rs.getInt("no"),
@@ -219,7 +219,7 @@ public class QnaDAO {
 		} catch(Exception e){
 			e.printStackTrace();
 		} finally {
-			mysql.close(con, pstmt, rs);
+			mariadb.close(con, pstmt, rs);
 		}
 		return latestQnaList;
 	}

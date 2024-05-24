@@ -28,7 +28,8 @@ thead.thead { background-color:#f3b8da; }
 .thead th.item3 { width: 20%; }
 .thead th.item4 { width: 10%; }
 
-#tb1_wrapper { width: 88%;margin-left:70px; margin-right:70px; margin-top:50px; }
+table { margin-left: 70px; }
+#tb1_wrapper { width: 88%; margin-left:70px; margin-right:70px; margin-top:50px; }
 
 #btn1 { margin-left:70px; background-color:#a77fb1; border-color:#a77fb1; }
 /*
