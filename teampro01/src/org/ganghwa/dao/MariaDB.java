@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class MariaDB implements SqlLang {
 	final static String DRIVER = "org.mariadb.jdbc.Driver";
-	final static String URL = "jdbc:mariadb://127.0.0.1:3308/team72";
+	final static String URL = "jdbc:mariadb://192.168.20.221/team72";
 	final static String USERID = "root";
 	final static String USERPW = "1234";
 	final static String INSERT_NOTICE = "insert into notice values(default, ?, ?, default, 0)";
