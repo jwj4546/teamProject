@@ -51,7 +51,7 @@
                         <li>
                             <a href="${path0 }/traffic/traffic.jsp" class="dp1" id="menu5">강화정보</a>
                             <ul class="sub">
-                                <li><a href="${path0 }/traffic/traffic.jsp" class="dp2" id="sub">교통정보</a></li>
+                                <li><a href="${path0 }/GetTrafficList.do" class="dp2" id="sub">교통정보</a></li>
                                 <li><a href="${path0 }/traffic/parking.jsp" class="dp2" id="sub">공영주차장</a></li>
                                 <li><a href="${path0 }/traffic/come.jsp" class="dp2" id="sub">오시는 길</a></li>
                             </ul>

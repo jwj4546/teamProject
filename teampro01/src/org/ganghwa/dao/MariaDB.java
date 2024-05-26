@@ -2,9 +2,9 @@ package org.ganghwa.dao;
 
 import java.sql.*;
 
-public class MySQLDB implements SqlLang {
-	final static String DRIVER = "com.mysql.cj.jdbc.Driver";
-	final static String URL = "jdbc:mysql://localhost:3306/teamproject";
+public class MariaDB implements SqlLang {
+	final static String DRIVER = "org.mariadb.jdbc.Driver";
+	final static String URL = "jdbc:mariadb://127.0.0.1:3308/team72";
 	final static String USERID = "root";
 	final static String USERPW = "1234";
 	final static String INSERT_NOTICE = "insert into notice values(default, ?, ?, default, 0)";
@@ -15,7 +15,7 @@ public class MySQLDB implements SqlLang {
 	//public static final String UPDATE_QUESTION_BYPARNO = "update qna set parno=no where no=(select * from qna order by no desc limit 1)";
 	final static String UPDATE_QUESTION_BYPARNO = "update qna as outer_qna join(select no from qna order by no desc limit 1)"
 			+ "as sub_query set outer_qna.parno=sub_query.no where outer_qna.no=sub_query.no";
-	final static String INS_TRAFFIC = "insert into traffic values (default,?,?,?,?,?);";
+	final static String INS_TRAFFIC = "insert into traffic values (?,?,?,?,?,?);";
 			
 	Connection con = null;
 	

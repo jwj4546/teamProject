@@ -24,6 +24,11 @@ public interface SqlLang {
 	String DELETE_QUESTION = "delete from qna where parno=?";
 	String DELETE_ANSWER = "delete from qna where no=?";
 	
+	String SELECT_ALL_TRAFFIC = "select * from traffic order by ttype desc, no asc";
+	String UPD_TRAFFIC = "update traffic set route=?, coment=? where tno=?";
+	String DEL_TRAFFIC = "delete from traffic where tno=?";
+	String SELECT_TRAFFIC_BYNO = "select * from traffic where no=?";
+	
 	Connection connect();
 	void close(Connection con, PreparedStatement pstmt);
 	void close(Connection con, PreparedStatement pstmt, ResultSet rs);

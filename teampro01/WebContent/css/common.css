@@ -71,7 +71,14 @@ border-bottom: 2px solid #000; }
 .contents { float:right; width: 1204px; box-sizing: border-box; min-height:100vh; height: 1300px; 
 border-left:2px solid #000; border-right: 2px solid #000; }
 
-.breadcrumb { clear:both; border-bottom:2px solid #000; padding-top: 24px; padding-bottom: 24px; text-align: right; box-sizing:border-box;  padding-right: 40px; }
+.breadcrumb { clear:both; border-bottom:2px solid #000; box-sizing:border-box; 
+margin: 0; background-color:#fff; padding:0; height:66px; border-radius:0px; padding-top: 20px; }
+/*
+#bc { margin: 0; background-color:#fff; padding:0; height:66px; border-radius:0px; padding-top: 20px; }
+#bc p { width:1200px; text-align:right; margin-right:30px; }
+*/
+.breadcrumb p { width:1200px; text-align:right; margin-right:30px; }
+.breadcrumb p a:hover { text-decoration: none; }
 .breadcrumb p * { padding:0px 7px; color:#000; font-weight:bold; }
 .breadcrumb p a:after { content:">"; padding-left: 14px; }
 

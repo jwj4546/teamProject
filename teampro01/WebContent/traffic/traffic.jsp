@@ -91,7 +91,7 @@
                             <li>
                                 <a class="dp1">강화정보</a>
                                 <ul class="sub">
-                                    <li><a href="${path0 }/traffic/traffic.jsp" class="dp2" style="background-color: #f3b8da;">교통정보</a></li>
+                                    <li><a href="${path0 }/GetTrafficList.do" class="dp2" style="background-color: #f3b8da;">교통정보</a></li>
                                     <li><a href="${path0 }/traffic/parking.jsp" class="dp2">공영주차장</a></li>
                                     <li><a href="${path0 }/traffic/come.jsp" class="dp2">오시는 길</a></li>
                                 </ul>

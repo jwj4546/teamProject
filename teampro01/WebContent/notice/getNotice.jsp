@@ -15,8 +15,8 @@ th.item1 { width:8% }
 th.item2 { width:60% }
 th.item3 { width:20% }
 
-#btn1 { margin-left:70px; background-color:#a77fb1; border-color:#a77fb1; }
-#btn2 { background-color:#a77fb1; border-color:#a77fb1; }
+#btn1 {  background-color:#a77fb1; border-color:#a77fb1; }
+#btn2 { background-color:#a77fb1; border-color:#a77fb1; margin-left:70px; }
 #btn4 { background-color:#d679b1; border-color:#d679b1; }
 </style>
 </head>
@@ -77,15 +77,17 @@ th.item3 { width:20% }
 				<div class="button-container" style="display: flex;">
 					<c:if test="${sid.equals('admin') }">
 					<div class="button">
-						<a href="${path0 }/notice/notice_ins.jsp" class="btn btn-primary" id="btn1">등록</a>
 						<a href="${path0 }/EditNotice.do?no=${notice.no }" class="btn btn-secondary" id="btn2">수정</a>
 						<a href="${path0 }/DelNotice.do?no=${notice.no }" class="btn btn-danger" onclick="removeCheck()">삭제</a>
+						<a href="${path0 }/NoticeList.do" class="btn btn-info" id="btn4">목록</a>
 						
 					</div>
 					</c:if>
+					<c:if test="${!sid.equals('admin') }">
 					<div class="button">
-						&nbsp;<a href="${path0 }/NoticeList.do" class="btn btn-info" id="btn4">목록</a>
+						<a href="${path0 }/NoticeList.do" class="btn btn-info" id="btn1">목록</a>
 					</div>
+					</c:if>
 				</div>
 				<br>
 			</div>

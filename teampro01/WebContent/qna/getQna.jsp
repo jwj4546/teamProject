@@ -15,7 +15,7 @@ th.item1 { width:8% }
 th.item2 { width:60% }
 th.item3 { width:20% }
 
-#btn1 { margin-left:70px; background-color:#a77fb1; border-color:#a77fb1; }
+#btn1 { background-color:#a77fb1; border-color:#a77fb1; }
 #btn2 { background-color:#a77fb1; border-color:#a77fb1; }
 #btn4 { background-color:#d679b1; border-color:#d679b1; }
 </style>
@@ -33,8 +33,8 @@ th.item3 { width:20% }
                             <li>
                                 <a class="dp1">강화소통</a>
                                 <ul class="sub">
-                                    <li><a href="${path0 }/NoticeList.do" class="dp2" style="background-color: #f3b8da;">공지사항</a></li>
-                                    <li><a href="${path0 }/GetQnaList.do" class="dp2">건의사항</a></li>
+                                    <li><a href="${path0 }/NoticeList.do" class="dp2">공지사항</a></li>
+                                    <li><a href="${path0 }/GetQnaList.do" class="dp2" style="background-color: #f3b8da;">건의사항</a></li>
                                 </ul>
                             </li>
                         </ul>
