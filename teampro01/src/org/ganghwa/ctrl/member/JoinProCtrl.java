@@ -48,7 +48,7 @@ public class JoinProCtrl extends HttpServlet {
 		int cnt = dao.join(member);
 		
 		if(cnt>0) {
-			response.sendRedirect("/teampro01");
+			response.sendRedirect("/ganghwa");
 		}
 		else {
 			response.sendRedirect("/Join.do");

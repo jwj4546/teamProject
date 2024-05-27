@@ -48,7 +48,7 @@ public class EditProMemberCtrl extends HttpServlet {
 		int cnt = dao.editMember(member);
 		
 		if(cnt>0) {
-			response.sendRedirect("/teampro01");
+			response.sendRedirect("/ganghwa");
 		} else {
 			response.sendRedirect("/EditMember.do?id="+id);
 		}

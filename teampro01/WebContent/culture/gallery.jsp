@@ -45,7 +45,7 @@
                 <div class="contents">
                     <div class="breadcrumb" style="width:1200px; background-color: #fff; text-align: right;">
                         <p>
-                            <a href="/teampro01">HOME</a><a href="${path0 }/culture/library.jsp">강화문화</a><span style="color:deeppink">전시관</span>
+                            <a href="/ganghwa">HOME</a><a href="${path0 }/culture/library.jsp">강화문화</a><span style="color:deeppink">전시관</span>
                         </p>
                     </div>
                     <h2 class="title">전시관</h2>

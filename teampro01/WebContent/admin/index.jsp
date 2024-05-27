@@ -62,7 +62,7 @@ font-weight: bold; font-size: 17px; background-color: #eccfe9; }
                 <div class="contents">
                     <div class="breadcrumb">
                         <p>
-                            <a href="/teampro01">HOME</a><a href="">강화소통</a><span style="color:deeppink">시스템관리자</span>
+                            <a href="/ganghwa">HOME</a><a href="">강화소통</a><span style="color:deeppink">시스템관리자</span>
                         </p>
                     </div>
                     <h2 class="title">시스템관리자</h2>

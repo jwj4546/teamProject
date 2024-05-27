@@ -55,13 +55,13 @@ public class LogInProCtrl extends HttpServlet {
 		
 		if(id.equals(member.getId()) && pw.equals(member.getPw())) {
 			session.setAttribute("sid", member.getId());
-			response.sendRedirect("/teampro01");
+			response.sendRedirect("/ganghwa");
 		} else if(id.equals(member.getId())) {
-	         out.println("<script>alert('해당 회원의 비밀번호가 일치하지 않습니다.'); location.href = '/teampro01/member/login.jsp';</script>");
+	         out.println("<script>alert('해당 회원의 비밀번호가 일치하지 않습니다.'); location.href = '/ganghwa/member/login.jsp';</script>");
 	         out.flush();
 	      }
 	      else {
-	         out.println("<script>alert('해당 회원이 존재하지 않습니다.'); location.href = '/teampro01/member/login.jsp';</script>");
+	         out.println("<script>alert('해당 회원이 존재하지 않습니다.'); location.href = '/ganghwa/member/login.jsp';</script>");
 	         out.flush();
 	         }
 	}

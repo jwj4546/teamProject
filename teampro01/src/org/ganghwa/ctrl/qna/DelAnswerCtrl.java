@@ -30,9 +30,9 @@ public class DelAnswerCtrl extends HttpServlet {
 		int cnt = dao.delAnswer(no);
 		
 		if(cnt>=1) {
-			response.sendRedirect("/teampro01/GetQnaList.do");
+			response.sendRedirect("/ganghwa/GetQnaList.do");
 		} else {
-			response.sendRedirect("/teampro01/GetQna2.do?no="+no);
+			response.sendRedirect("/ganghwa/GetQna2.do?no="+no);
 		}
 	}
 

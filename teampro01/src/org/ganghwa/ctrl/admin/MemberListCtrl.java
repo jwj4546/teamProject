@@ -27,7 +27,7 @@ public class MemberListCtrl extends HttpServlet {
 		
 		String loginId = (String) session.getAttribute("sid");
 		if(!loginId.equals("admin")){
-			response.sendRedirect("/teampro01");
+			response.sendRedirect("/ganghwa");
 		}
 		
 		MemberDAO dao = new MemberDAO();

@@ -37,9 +37,9 @@ public class EditProQnaCtrl extends HttpServlet {
 		int cnt = dao.editProQna(qna);
 		
 		if(cnt>=1) {
-			response.sendRedirect("/teampro01/GetQnaList.do");
+			response.sendRedirect("/ganghwa/GetQnaList.do");
 		} else {
-			response.sendRedirect("/teampro01/GetQna.do?no="+no);
+			response.sendRedirect("/ganghwa/GetQna.do?no="+no);
 		}
 	}
 

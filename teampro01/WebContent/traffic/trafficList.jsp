@@ -39,7 +39,7 @@
 	<main id="contents" class="clr-fix" style="height: auto;">
         <div class="wrap clr-fix" style="height: auto;">
             <div class="contents_wrap" style="height: auto;">
-                <aside id="left1">
+                <aside id="left1" style="height: 2862px;">
                     <nav id="lnb">
                         <ul class="menu">
                             <li>

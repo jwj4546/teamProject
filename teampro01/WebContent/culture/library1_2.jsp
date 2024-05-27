@@ -52,7 +52,7 @@
                 <div class="contents">
                     <div class="breadcrumb">
                         <p>
-                            <a href="/teampro01">HOME</a><a href="${path0 }/culture/library.jsp">강화문화</a><span style="color:deeppink">도서관</span>
+                            <a href="/ganghwa">HOME</a><a href="${path0 }/culture/library.jsp">강화문화</a><span style="color:deeppink">도서관</span>
                         </p>
                     </div>
                    	<h2 class="title">상세보기</h2>

@@ -87,7 +87,7 @@ thead.thead { background-color:#f3b8da; }
                 <div class="contents">
                     <div class="breadcrumb">
                         <p>
-                            <a href="/teampro01">HOME</a><a href="${path0 }/admin/index.jsp">시스템관리자</a><span style="color:deeppink">회원관리</span>
+                            <a href="/ganghwa">HOME</a><a href="${path0 }/admin/index.jsp">시스템관리자</a><span style="color:deeppink">회원관리</span>
                         </p>
                     </div>
                     <h2 class="title">회원관리</h2>

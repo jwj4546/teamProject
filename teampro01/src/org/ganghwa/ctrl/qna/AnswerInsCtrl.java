@@ -38,7 +38,7 @@ public class AnswerInsCtrl extends HttpServlet {
 		int cnt = dao.insAnswer(qna);
 		
 		if(cnt>=1) {
-			response.sendRedirect("/teampro01/GetQnaList.do");
+			response.sendRedirect("/ganghwa/GetQnaList.do");
 		} else {
 			response.sendRedirect("/qna/insAns.jsp?parno="+qna.getParno());
 		}

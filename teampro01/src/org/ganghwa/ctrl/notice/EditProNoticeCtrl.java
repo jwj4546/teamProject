@@ -32,9 +32,9 @@ public class EditProNoticeCtrl extends HttpServlet {
 		int cnt = dao.editNotice(notice);
 		
 		if(cnt>0) {
-			response.sendRedirect("/teampro01/NoticeList.do");
+			response.sendRedirect("/ganghwa/NoticeList.do");
 		} else {
-			response.sendRedirect("/teampro01/EditNotice.do?no="+notice.getNo());
+			response.sendRedirect("/ganghwa/EditNotice.do?no="+notice.getNo());
 		}
 	}
 

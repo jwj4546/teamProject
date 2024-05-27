@@ -22,7 +22,7 @@ public class AdminMainCtrl extends HttpServlet {
 		
 		String loginId = (String) session.getAttribute("sid");
 		if(!loginId.equals("admin")) {
-			response.sendRedirect("/teampro01");
+			response.sendRedirect("/ganghwa");
 		}
 		else {
 			request.setAttribute("message", "관리자 페이지입니다.");

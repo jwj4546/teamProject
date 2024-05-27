@@ -31,7 +31,7 @@ public class DelMemberCtrl extends HttpServlet {
 		
 		if(cnt>0) {
 			session.invalidate();
-			response.sendRedirect("/teampro01");
+			response.sendRedirect("/ganghwa");
 		} else {
 			response.sendRedirect("/EditMember.do?id="+id);
 		}

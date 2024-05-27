@@ -12,7 +12,7 @@
                 <nav id="gnb3">
                     <ul class="menu">
                         <li>
-                            <a href="/teampro01">
+                            <a href="/ganghwa">
                                 <img src="${path0 }/images/logo.png" alt="로고" id="logo">
                             </a>
                         </li>
